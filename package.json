@@ -1,0 +1,17 @@
+{
+  "name": "the-dots-demo",
+  "version": "0.0.1",
+  "description": "Demo application for The Dots, to demonstrate the potential workflow and structure of the main application",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kostas Vasileiou",
+    "email": "hello@vsl.io",
+    "url": "http://vsl.io"
+  },
+  "license": "UNLICENSED"
+}
