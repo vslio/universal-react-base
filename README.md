@@ -5,7 +5,7 @@
 
 **This includes:**
 - [x] React
-- [] Redux
+- [ ] Redux
 - [x] Express
 - [x] Webpack
 
