@@ -1,17 +1,18 @@
-var webpack = require('webpack')
-var path = require('path')
+const webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
-  context: path.join(__dirname, './client'),
+  context: path.join(__dirname, '../../client'),
   entry: [
     'webpack-hot-middleware/client',
-    './index.js'
+    './index.js',
+    './index.html'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/dist/'
+    path: path.join(__dirname, '../../dist'),
+    filename: 'app.bundle.js',
+    publicPath: '/dist'
   },
   module: {
     loaders: [
@@ -31,7 +32,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, 'client')
+        include: path.join(__dirname, '../../client')
       }
     ]
   },
@@ -40,7 +41,6 @@ module.exports = {
   },
   postcss: [],
   plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({

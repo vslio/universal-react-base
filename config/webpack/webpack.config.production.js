@@ -1,13 +1,15 @@
-var webpack = require('webpack')
-var path = require('path')
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
-  context: path.join(__dirname, './client'),
-  entry: './index.js',
+  context: path.join(__dirname, '../../client'),
+  entry: {
+    vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-router-redux', 'react-redux'],
+    app: ['./index.js']
+  },
   output: {
-    path: path.join(__dirname, './dist'),
-    filename: 'bundle.js',
-    publicPath: '/dist/'
+    path: path.join(__dirname, '../../dist'),
+    filename: './app.bundle.js'
   },
   module: {
     loaders: [
@@ -27,7 +29,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, 'client')
+        include: path.join(__dirname, '../../client')
       }
     ]
   },
@@ -36,16 +38,15 @@ module.exports = {
   },
   postcss: [],
   plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendors',
+      filename: './vendors.bundle.js'
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false,
         screw_ie8: true
       }
     })
-  ],
-  devServer: {
-    contentBase: './client',
-    hot: true
-  }
+  ]
 }
