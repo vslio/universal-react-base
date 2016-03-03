@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Kostas Vasileiou",
+      "title": "First title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit beatae praesentium cupiditate, iure fuga aliquam eius atque minus dicta unde temporibus assumenda neque quod! Inventore quam numquam dolorem minima ipsa."
+    },
+    {
+      "id": 2,
+      "author": "Josh Baker",
+      "title": "Second title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum omnis mollitia, unde soluta expedita numquam, cumque nihil id nostrum tenetur velit earum quod error debitis, minima voluptatem sed voluptatibus."
+    },
+    {
+      "id": 3,
+      "author": "Luke Patton",
+      "title": "Third title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis tenetur earum, eligendi alias! Voluptas repellendus, suscipit autem. Dolorem quos, placeat id, voluptatibus facilis sint nihil iusto dicta minima non in."
+    },
+    {
+      "id": 4,
+      "author": "Mark Jenkins",
+      "title": "Fourth title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatibus esse atque, nulla quam architecto harum, cupiditate minima dolores corporis consequuntur doloribus fugiat debitis deserunt rerum at non ipsa a."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "text": "This is the first note"
+    },
+    {
+      "id": 2,
+      "text": "This is the second note"
+    }
+  ]
+}

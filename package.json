@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.development.js",
+    "start": "node server.development.js & json-server --watch db/db.json --port 3001",
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --progress --colors --config config/webpack/webpack.config.production.js",
     "build": "npm run clean && npm run build:webpack"
@@ -39,6 +39,7 @@
     "cross-env": "^1.0.7",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
+    "json-server": "^0.8.8",
     "postcss-loader": "^0.8.1",
     "progress": "^1.1.8",
     "rimraf": "^2.5.2",
