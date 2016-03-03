@@ -1,0 +1,31 @@
+/**
+ * Navigation Component styles
+ */
+.navigation {
+  float: right;
+  display: inline-block;
+  line-height: 37px;
+}
+
+.item {
+  display: inline-block;
+}
+
+.itemLogin {
+  composes: item;
+  margin-left: 40px;
+}
+
+.link {
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  .itemLogin & {
+    background-color: #bdd7ff;
+    border-radius: 2px;
+  }
+}
+
+.active {
+  font-weight: bold;
+}

@@ -38,7 +38,6 @@
     "babel-runtime": "^6.5.0",
     "cross-env": "^1.0.7",
     "css-loader": "^0.23.1",
-    "del-cli": "^0.2.0",
     "file-loader": "^0.8.5",
     "postcss-loader": "^0.8.1",
     "progress": "^1.1.8",

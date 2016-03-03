@@ -1,5 +1,6 @@
-const webpack = require('webpack')
 const path = require('path')
+const webpack = require('webpack')
+const cssnext = require('postcss-cssnext')
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -39,7 +40,9 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  postcss: [],
+  postcss: () => {
+    return [cssnext]
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),

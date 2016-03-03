@@ -1,0 +1,43 @@
+/**
+ * Login Component styles
+ */
+.heading {
+  margin-bottom: 5px;
+}
+
+.description {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-family: monospace;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input {
+  display: block;
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  border-width: 0 0 1px;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    font-weight: 300;
+  }
+}
+
+.submit {
+  composes: input;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-width: 1px;
+}

@@ -4,10 +4,13 @@
 *This is a rough demo, demonstrating the use of our (hopefully) final tech stack.*
 
 **This includes:**
-- [x] React
-- [ ] Redux
 - [x] Express
 - [x] Webpack
+- [x] React
+- [ ] Redux
+- [x] Babel
+- [x] PostCSS
+- [x] cssnext
 
 ##Installation
 *Note: The current build has only been tested on OSX.*
@@ -27,3 +30,15 @@ npm start
 ```
 
 Success! The project is accessible under `http://localhost:3000`. Happy coding!
+
+##Structure
+    .
+    ├── client                  # Contains all the client files
+    │   ├── components          # React components
+    │   ├── styles              # Core stylesheets (not component-specific)
+    ├── config                  # Webpack (for now) configuration files
+    ├── dist                    # Asset bundles (JS, images etc)
+    └── shared                  # Shared files between the server and the client-side
+
+##CSS
+...

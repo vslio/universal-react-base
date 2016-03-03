@@ -1,0 +1,31 @@
+/**
+ * Root Component
+ *
+ * Includes the Base import which contains all the
+ * base styles (normalize, typography, forms etc).
+ */
+
+/**
+ * Base import
+ */
+@import '../../../styles/normalize.css';
+@import '../../../styles/base.css';
+@import '../../../styles/type.css';
+
+/**
+ * Root Component styles
+ */
+.root {
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.heading {
+  display: inline-block;
+  margin: 0;
+}
