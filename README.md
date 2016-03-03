@@ -22,10 +22,10 @@ git clone git@github.com:vslio/the-dots-demo.git /desired-folder
 ```
 
 Make sure you install JSON Server globally for the API server to work:
+*Note: You might need to prepend `sudo ` depending on the permissions of your user's `node_modules` folder.*
 ```
 npm install -g json-server
 ```
-*Note: You might need to prepend `sudo ` depending on the permissions of your user's node_modules folder.*
 
 Fire up the console, navigate to the cloned repo and install all the project's dependencies:
 ```
@@ -52,5 +52,5 @@ Success! The project is accessible on `http://localhost:3000` and the API server
 
 
 ##Things you need to know
->CSS
+###CSS
 ...
