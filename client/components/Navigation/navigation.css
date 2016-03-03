@@ -20,7 +20,7 @@
   padding: 10px 15px;
   color: #333;
   text-decoration: none;
-  // Login button specific styles
+  /* Login button specific styles */
   @nest .itemLogin & {
     background-color: #bdd7ff;
     border-radius: 2px;
