@@ -8,9 +8,9 @@
 /**
  * Base import
  */
-@import '../../../styles/normalize.css';
-@import '../../../styles/base.css';
-@import '../../../styles/type.css';
+@import '../../styles/normalize.css';
+@import '../../styles/base.css';
+@import '../../styles/type.css';
 
 /**
  * Root Component styles

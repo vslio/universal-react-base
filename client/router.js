@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 // Importing the components
-import App from './components/core/Root'
+import Root from './containers/Root'
 import Home from './components/Home'
 import About from './components/About'
 import Posts from './components/Posts'
@@ -11,7 +11,7 @@ import Login from './components/Login'
 
 export default (
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
+    <Route path="/" component={Root}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About}></Route>
       <Route path="/posts" component={Posts}></Route>

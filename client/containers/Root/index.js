@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import style from './root.css'
 
 // Importing child components
-import Navigation from '../../Navigation';
+import Navigation from '../../components/Navigation';
 
 class App extends Component {
   render() {

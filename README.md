@@ -1,14 +1,14 @@
 # The Dots Demo
 
 ##What is it
-*This is a rough demo, demonstrating the use of our (hopefully) final tech stack.*
+*This is a rough demo, demonstrating the use of our (hopefully final) tech stack.*
 
 **This includes:**
 - [x] Express
 - [x] json-server
 - [x] Webpack
 - [x] React
-- [ ] Redux
+- [x] Redux
 - [x] Babel
 - [x] PostCSS
 - [x] cssnext
@@ -43,8 +43,13 @@ Success! The project is accessible on `http://localhost:3000` and the API server
 ##Structure
     .
     ├── client                  # Client specific files
+    │   ├── actions             # Redux action types and action creators
     │   ├── components          # React components
+    │   ├── containers          # Top level react components
+    │   ├── reducers            # Redux reducers
+    │   ├── store               # Redux store
     │   └── styles              # Core stylesheets (not component-specific)
+    │       └── common          # Common styles that can be composed (@extend-ed) in components
     ├── config                  # Webpack (for now) configuration files
     ├── db                      # Storing a mock DB file for the API
     ├── dist                    # Final asset bundles (JS, images etc)
