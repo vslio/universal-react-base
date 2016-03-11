@@ -26,6 +26,7 @@
 
 .author {
   composes: author from "../../styles/common/post.css";
+  // Decoration pseudo element that underlines the element on hover
   &::before {
     position: absolute;
     left: 0;
