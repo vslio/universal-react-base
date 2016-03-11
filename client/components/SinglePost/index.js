@@ -22,7 +22,7 @@ class SinglePost extends Component {
       <div>
         <header className={style.header}>
           <h3 className={style.title}>{this.props.post.title}</h3>
-          <span className={style.author}>{this.props.post.author}</span>
+          <em className={style.author}>by {this.props.post.author}</em>
           <Link to="/posts" className={style.close}>&larr; BACK TO POSTS</Link>
         </header>
         <p className={style.text}>{this.props.post.text}</p>
