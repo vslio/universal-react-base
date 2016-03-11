@@ -2,13 +2,11 @@
  * Login Component styles
  */
 .heading {
-  margin-bottom: 5px;
+  composes: heading from "../../styles/common/page.css";
 }
 
 .description {
-  display: inline-block;
-  margin-bottom: 40px;
-  font-family: monospace;
+  composes: description from "../../styles/common/page.css";
 }
 
 .label {

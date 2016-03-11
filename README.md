@@ -42,13 +42,13 @@ Success! The project is accessible on `http://localhost:3000` and the API server
 
 ##Structure
     .
-    ├── client                  # Contains all the client files
+    ├── client                  # Client specific files
     │   ├── components          # React components
     │   └── styles              # Core stylesheets (not component-specific)
     ├── config                  # Webpack (for now) configuration files
     ├── db                      # Storing a mock DB file for the API
     ├── dist                    # Final asset bundles (JS, images etc)
-    └── shared                  # Shared files between the server and the client
+    └── server                  # Server specific files
 
 
 ##Things you need to know

@@ -7,12 +7,13 @@
   line-height: 37px;
 }
 
+/* Wraps the actual navigation links */
 .item {
   display: inline-block;
 }
 
 .itemLogin {
-  composes: item;
+  display: inline-block;
   margin-left: 40px;
 }
 

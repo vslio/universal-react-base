@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react'
+import style from './home.css'
 
-class Home extends Component {
-  render() {
-    return (
-      <div>This is the homepage.</div>
-    )
-  }
-}
+const Home = () => (
+  <header>
+    <h3 className={style.heading}>Homepage</h3>
+    <span className={style.description}>Nothing to see here yet.</span>
+  </header>
+)
 
 export default Home

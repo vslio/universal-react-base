@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.development.js & json-server --watch db/db.json --port 3001",
+    "start": "node server/server.development.js & json-server --watch db/db.json --port 3001",
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --progress --colors --config config/webpack/webpack.config.production.js",
     "build": "npm run clean && npm run build:webpack"
@@ -19,13 +19,15 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
+    "babel-polyfill": "^6.6.1",
     "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.0",
     "react-router": "^2.0.0",
-    "react-router-redux": "^3.0.0",
-    "redux": "^3.3.1"
+    "redux": "^3.3.1",
+    "redux-thunk": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.5.2",
@@ -41,8 +43,10 @@
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
     "json-server": "^0.8.8",
+    "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.8.1",
     "progress": "^1.1.8",
+    "redux-logger": "^2.6.1",
     "rimraf": "^2.5.2",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",

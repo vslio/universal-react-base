@@ -5,7 +5,7 @@ const path = require('path')
 const express = require('express')
 const jsonServer = require('json-server')
 const webpack = require('webpack')
-const webpackConfig = require('./config/webpack/webpack.config.development')
+const webpackConfig = require('../config/webpack/webpack.config.development')
 const ProgressPlugin = require('webpack/lib/ProgressPlugin')
 const ProgressBar = require('progress')
 
@@ -41,7 +41,7 @@ server.use(require('webpack-dev-middleware')(webpackCompiler, {
 server.use(require('webpack-hot-middleware')(webpackCompiler))
 
 server.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/client/index.html'))
+  res.sendFile(path.join(__dirname, '../client/index.html'))
 })
 
 server.listen(3000, 'localhost', (err) => {

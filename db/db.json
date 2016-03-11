@@ -28,11 +28,11 @@
   "notes": [
     {
       "id": 1,
-      "text": "This is the first note"
+      "text": "This is the first note."
     },
     {
       "id": 2,
-      "text": "This is the second note"
+      "text": "This is the second note."
     }
   ]
 }
