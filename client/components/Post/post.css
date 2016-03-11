@@ -21,17 +21,11 @@
 }
 
 .title {
-  margin-bottom: 6px;
-  font-size: 1.50rem;
+  composes: title from "../../styles/common/post.css";
 }
 
 .author {
-  display: inline-block;
-  position: relative;
-  margin-bottom: 5px;
-  font-size: 0.875rem;
-  font-weight: 100;
-  color: #999;
+  composes: author from "../../styles/common/post.css";
   &::before {
     position: absolute;
     left: 0;
@@ -45,7 +39,5 @@
 }
 
 .text {
-  font-family: monospace;
-  font-size: 1rem;
-  line-height: 1.5;
+  composes: text from "../../styles/common/post.css";
 }
