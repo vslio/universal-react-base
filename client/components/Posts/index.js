@@ -1,3 +1,6 @@
+/**
+ * Posts component, rendered @ `/posts`
+ */
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchPosts } from '../../actions/posts'
@@ -11,15 +14,12 @@ class Posts extends Component {
     dispatch(fetchPosts())
   }
 
-  constructHeader() {
-    return (
-      <header>
-        <h3 className={style.heading}>Posts</h3>
-        <span className={style.description}>Blog posts from our members.</span>
-      </header>
-    )
-  }
-
+  /**
+   * Method to construct the <Posts> element which
+   * is composed of multiple <Post> elements. I opted
+   * to abstract this method, in order to unclutter the
+   * `render` method below.
+   */
   constructPosts() {
     return this.props.posts.items.map((post) => {
       return (
@@ -35,12 +35,14 @@ class Posts extends Component {
   }
 
   render() {
-    const header = this.constructHeader()
     const posts = this.constructPosts()
 
     return (
       <div>
-        {header}
+        <header>
+          <h3 className={style.heading}>Posts</h3>
+          <span className={style.description}>Blog posts from our members.</span>
+        </header>
         <div>
           {posts}
         </div>
@@ -55,6 +57,14 @@ const mapStateToProps = (state) => {
   }
 }
 
+/**
+ * Essential method to bridge React and Redux.
+ *
+ * `connect` allows the component to subscribe to Redux store
+ * updates, effectively triggering re-renders when there are
+ * changes. Additionally, it injects the `dispatch` method
+ * used in `componentDidMount()`
+ */
 Posts = connect(mapStateToProps)(Posts)
 
 export default Posts

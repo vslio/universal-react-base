@@ -1,3 +1,9 @@
+/**
+ * Navigation component
+ * @description This is the main navigation component of the app.
+ *              It's rendered on all pages and it's part of the
+ *              `Root` container/component
+ */
 import React from 'react'
 import { Link } from 'react-router'
 import style from './navigation.css'

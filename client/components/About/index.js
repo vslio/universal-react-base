@@ -1,3 +1,6 @@
+/**
+ * About component, rendered @ `/about`
+ */
 import React from 'react'
 import style from './about.css'
 

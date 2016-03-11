@@ -1,10 +1,3 @@
-/**
- * The app state tree needs to be immutable. I will need to convert
- * it using immutableJS. Check this for immutability later on:
- *
- * https://github.com/arsich/react-redux-cats/blob/master/app/reducers/cats.js
- */
-
 import {
   REQUEST_POSTS, RECEIVE_POSTS,
   REQUEST_POST, RECEIVE_POST

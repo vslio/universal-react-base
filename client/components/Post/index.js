@@ -1,3 +1,8 @@
+/**
+ * Post component
+ * @description Used in `Posts` component to render each
+ *              post, after a response from the server.
+ */
 import React from 'react'
 import { Link } from 'react-router'
 import style from './post.css'

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-
-// Importing the components
 import Root from './containers/Root'
 import Home from './components/Home'
 import About from './components/About'

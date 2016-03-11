@@ -57,5 +57,26 @@ Success! The project is accessible on `http://localhost:3000` and the API server
 
 
 ##Things you need to know
+###Components
+Some Components are exposed as `Stateless Functions` instead of classes:
+```
+import React from 'react'
+import style from './home.css'
+
+const Home = () => (
+  <header>
+    <h3 className={style.heading}>Homepage</h3>
+    <span className={style.description}>Nothing to see here yet.</span>
+  </header>
+)
+
+export default Home
+```
+This is a better option when the component we're using is state-agnostic and only serves a presentational purpose. For more information check this [section of the React documentation](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions)
+
+###Reducers
+The app state tree is currently a simple JavaScript `Object`. For numerous reasons (mainly performance-related) it needs to be converted to an immutable data collection, preferably using Facebook's [immutable.js](https://github.com/facebook/immutable-js).
+For implementation check out [this example](https://github.com/arsich/react-redux-cats/blob/master/app/reducers/cats.js).
+
 ###CSS
 ...

@@ -1,3 +1,6 @@
+/**
+ * About component, rendered @ `/login`
+ */
 import React from 'react'
 import style from './login.css'
 

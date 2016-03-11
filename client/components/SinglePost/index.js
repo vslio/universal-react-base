@@ -1,3 +1,8 @@
+/**
+ * SinglePost component, rendered @ `/post/:id`
+ *
+ * @description Displays a single post
+ */
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
@@ -8,6 +13,7 @@ class SinglePost extends Component {
   componentDidMount() {
     const { dispatch } = this.props
 
+    // Trigger a fetch to the server when the component is rendered
     dispatch(fetchPost(this.props.routeParams.id))
   }
 
@@ -31,6 +37,14 @@ const mapStateToProps = (state) => {
   }
 }
 
+/**
+ * Essential method to bridge React and Redux.
+ *
+ * `connect` allows the component to subscribe to Redux store
+ * updates, effectively triggering re-renders when there are
+ * changes. Additionally, it injects the `dispatch` method
+ * used in `componentDidMount()`
+ */
 SinglePost = connect(mapStateToProps)(SinglePost)
 
 export default SinglePost

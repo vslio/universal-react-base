@@ -1,3 +1,6 @@
+/**
+ * Home component, rendered @ `/home`
+ */
 import React from 'react'
 import style from './home.css'
 
