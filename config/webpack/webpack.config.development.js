@@ -5,14 +5,13 @@ const cssnext = require('postcss-cssnext')
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   context: path.join(__dirname, '../../client'),
-  entry: [
-    'webpack-hot-middleware/client',
-    './index.js',
-    './index.html'
-  ],
+  entry: {
+    vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill', 'webpack-hot-middleware/client'],
+    app: ['./index', 'webpack-hot-middleware/client']
+  },
   output: {
     path: path.join(__dirname, '../../dist'),
-    filename: 'app.bundle.js',
+    filename: '[name].bundle.js',
     publicPath: '/dist'
   },
   module: {
@@ -46,6 +45,10 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendors',
+      filename: './vendors.bundle.js'
+    }),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development') }
     })
