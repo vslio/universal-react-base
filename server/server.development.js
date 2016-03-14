@@ -8,10 +8,6 @@ const webpack = require('webpack')
 const webpackConfig = require('../config/webpack/webpack.config.development')
 const ProgressPlugin = require('webpack/lib/ProgressPlugin')
 const ProgressBar = require('progress')
-
-/**
- * Server constants declaration
- */
 const server = express()
 
 /**

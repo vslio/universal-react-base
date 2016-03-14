@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux'
 
 // Reducer imports
-import posts from './posts'
-import notes from './notes'
+import postsReducer from './PostsReducer'
+import notesReducer from './NotesReducer'
 
 const rootReducer = combineReducers({
-  posts,
-  notes
+  postsReducer,
+  notesReducer
 })
 
 export default rootReducer

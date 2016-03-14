@@ -1,6 +1,6 @@
 import {
   REQUEST_NOTES, RECEIVE_NOTES
-} from '../actions/notes'
+} from '../actions/NotesActions'
 
 const initialState = {
   notes: []
@@ -9,7 +9,7 @@ const initialState = {
 /**
  * Notes Reducers
  */
-function notes(state = initialState, action) {
+function notesReducer(state = initialState, action) {
   switch (action.type) {
     case REQUEST_NOTES:
       return state
@@ -23,4 +23,4 @@ function notes(state = initialState, action) {
   }
 }
 
-export default notes
+export default notesReducer

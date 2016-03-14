@@ -1,7 +1,7 @@
 import {
   REQUEST_POSTS, RECEIVE_POSTS,
   REQUEST_POST, RECEIVE_POST
-} from '../actions/posts'
+} from '../actions/PostsActions'
 
 const initialState = {
   items: [],
@@ -11,7 +11,7 @@ const initialState = {
 /**
  * Posts Reducers
  */
-function posts(state = initialState, action) {
+function postsReducer(state = initialState, action) {
   switch (action.type) {
     case REQUEST_POSTS:
       return state
@@ -32,4 +32,4 @@ function posts(state = initialState, action) {
   }
 }
 
-export default posts
+export default postsReducer

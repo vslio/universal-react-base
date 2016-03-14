@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { fetchPosts } from '../../actions/posts'
+import { fetchPosts } from '../../actions/PostsActions'
 import Post from '../Post'
 import style from './posts.css'
 

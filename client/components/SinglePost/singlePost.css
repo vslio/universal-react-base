@@ -28,7 +28,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   border-radius: 2px;
-  // Decoration pseudo element that underlines the element on hover
+  /* Decoration pseudo element that underlines the element on hover */
   &::before {
     position: absolute;
     bottom: 0;
