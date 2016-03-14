@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   context: path.join(__dirname, '../../client'),
   entry: {
-    vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-router-redux', 'react-redux'],
+    vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill'],
     app: ['./index.js']
   },
   output: {
