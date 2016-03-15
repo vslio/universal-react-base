@@ -42,7 +42,7 @@ Success! The project is accessible on `http://localhost:3000` and the API server
 
 ##Structure
     .
-    ├── client                  # Client specific files
+    ├── shared                  # Universal files - anything react/redux related
     │   ├── actions             # Redux action types and action creators
     │   ├── components          # React components
     │   ├── containers          # Top level react components

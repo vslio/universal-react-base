@@ -37,7 +37,7 @@ server.use(require('webpack-dev-middleware')(webpackCompiler, {
 server.use(require('webpack-hot-middleware')(webpackCompiler))
 
 server.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/index.html'))
+  res.sendFile(path.join(__dirname, '../shared/index.html'))
 })
 
 server.listen(3000, 'localhost', (err) => {

@@ -4,7 +4,7 @@ const cssnext = require('postcss-cssnext')
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
-  context: path.join(__dirname, '../../client'),
+  context: path.join(__dirname, '../../shared'),
   entry: {
     vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill', 'webpack-hot-middleware/client'],
     app: ['./index', 'webpack-hot-middleware/client']
@@ -32,7 +32,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, '../../client')
+        include: path.join(__dirname, '../../shared')
       }
     ]
   },

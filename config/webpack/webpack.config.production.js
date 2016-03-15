@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  context: path.join(__dirname, '../../client'),
+  context: path.join(__dirname, '../../shared'),
   entry: {
     vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill'],
     app: ['./index.js']
@@ -29,7 +29,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, '../../client')
+        include: path.join(__dirname, '../../shared')
       }
     ]
   },
