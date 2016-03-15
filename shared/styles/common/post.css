@@ -1,0 +1,22 @@
+/**
+ * Post common styles
+ */
+.title {
+  margin-bottom: 6px;
+  font-size: 1.50rem;
+}
+
+.author {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+  font-weight: 100;
+  color: #999;
+}
+
+.text {
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+}

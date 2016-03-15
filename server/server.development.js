@@ -1,14 +1,21 @@
 /**
  * Module requires
  */
-const path = require('path')
-const express = require('express')
-const jsonServer = require('json-server')
-const webpack = require('webpack')
-const webpackConfig = require('../config/webpack/webpack.config.development')
-const ProgressPlugin = require('webpack/lib/ProgressPlugin')
-const ProgressBar = require('progress')
+import path from 'path'
+import express from 'express'
+import jsonServer from 'json-server'
+
+import webpack from 'webpack'
+import webpackConfig from '../config/webpack/webpack.config.development'
+import ProgressPlugin from 'webpack/lib/ProgressPlugin'
+import ProgressBar from 'progress'
+
+import React from 'react'
+import { renderToString } from 'react-dom/server'
+import { Provider } from 'react-redux'
+
 const server = express()
+const port = 3000
 
 /**
  * Progressbar setup and initialisation
@@ -40,9 +47,10 @@ server.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../shared/index.html'))
 })
 
-server.listen(3000, 'localhost', (err) => {
+server.listen(port, 'localhost', (err) => {
   if (err) {
     console.log(err)
+
     return
   }
 })

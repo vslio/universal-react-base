@@ -1,0 +1,10 @@
+/**
+ * Home Component styles
+ */
+.heading {
+  composes: heading from "../../styles/common/page.css";
+}
+
+.description {
+  composes: description from "../../styles/common/page.css";
+}

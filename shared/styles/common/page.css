@@ -1,0 +1,13 @@
+/**
+ * Page Common styles
+ */
+.heading {
+  margin-bottom: 5px;
+}
+
+/* Description placed below the heading */
+.description {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-family: monospace;
+}

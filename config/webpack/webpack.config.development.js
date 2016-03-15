@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const cssnext = require('postcss-cssnext')
 
 module.exports = {
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'inline-source-map',
   context: path.join(__dirname, '../../shared'),
   entry: {
     vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill', 'webpack-hot-middleware/client'],
@@ -29,7 +29,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(js|jsx)$/,
+        test: /\.js$/,
         loader: 'babel',
         exclude: /node_modules/,
         include: path.join(__dirname, '../../shared')
