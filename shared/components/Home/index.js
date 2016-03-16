@@ -1,5 +1,5 @@
 /**
- * Home component, rendered @ `/home`
+ * Home component, rendered @ `/`
  */
 import React from 'react'
 import style from './home.css'

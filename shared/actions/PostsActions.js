@@ -39,6 +39,8 @@ function receivePosts(json) {
   }
 }
 
+
+
 /**
  * Action triggered when there's a request for a single post
  * @return {Object} Action type
@@ -71,7 +73,10 @@ export function fetchPosts() {
     dispatch(requestPosts())
     return fetch(apiPath('/posts'))
       .then(response => response.json())
-      .then(json => dispatch(receivePosts(json)))
+      .then(json => {
+        console.log('Got response from the server. The JSON is here.')
+        dispatch(receivePosts(json))
+      })
   }
 }
 

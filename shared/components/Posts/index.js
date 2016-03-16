@@ -8,7 +8,7 @@ import Post from '../Post'
 import style from './posts.css'
 
 class Posts extends Component {
-  componentDidMount() {
+  componentWillMount() {
     const { dispatch } = this.props
 
     dispatch(fetchPosts())
@@ -36,6 +36,8 @@ class Posts extends Component {
 
   render() {
     const posts = this.constructPosts()
+
+    console.log('the posts are rendered', posts)
 
     return (
       <div>
