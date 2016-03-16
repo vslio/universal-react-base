@@ -4,13 +4,13 @@ const cssnext = require('postcss-cssnext')
 
 module.exports = {
   devtool: 'inline-source-map',
-  context: path.join(__dirname, '../../shared'),
+  context: path.join(__dirname, 'src/shared'),
   entry: {
     vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill', 'webpack-hot-middleware/client'],
     app: ['./index', 'webpack-hot-middleware/client']
   },
   output: {
-    path: path.join(__dirname, '../../dist'),
+    path: path.join(__dirname, 'dist'),
     filename: '[name].bundle.js',
     publicPath: '/dist'
   },
@@ -24,7 +24,7 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style-loader',
-          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]',
           'postcss-loader'
         ]
       },
@@ -32,7 +32,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, '../../shared')
+        include: path.join(__dirname, 'src/shared')
       }
     ]
   },

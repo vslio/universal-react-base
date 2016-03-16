@@ -6,7 +6,7 @@ import express from 'express'
 import jsonServer from 'json-server'
 
 import webpack from 'webpack'
-import webpackDevConfig from '../config/webpack/webpack.config.development'
+import webpackDevConfig from '../../webpack.config.development'
 import webpackDevMiddleware from 'webpack-dev-middleware'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 

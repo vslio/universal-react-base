@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js & json-server --watch db/db.json --port 3001",
+    "start": "node src/server/index.js & json-server --watch db/db.json --port 3001",
     "clean": "rimraf dist",
-    "build:webpack": "cross-env NODE_ENV=production webpack --progress --colors --config config/webpack/webpack.config.production.js",
+    "build:webpack": "cross-env NODE_ENV=production webpack --progress --colors --config webpack.config.production.js",
     "build": "npm run clean && npm run build:webpack"
   },
   "keywords": [],

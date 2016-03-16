@@ -2,13 +2,13 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  context: path.join(__dirname, '../../shared'),
+  context: path.join(__dirname, 'src/shared'),
   entry: {
     vendors: ['react', 'react-dom', 'react-router', 'redux', 'react-redux', 'redux-thunk', 'isomorphic-fetch', 'babel-polyfill'],
     app: ['./index.js']
   },
   output: {
-    path: path.join(__dirname, '../../dist'),
+    path: path.join(__dirname, 'dist'),
     filename: './app.bundle.js'
   },
   module: {
@@ -29,7 +29,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel',
         exclude: /node_modules/,
-        include: path.join(__dirname, '../../shared')
+        include: path.join(__dirname, 'src/shared')
       }
     ]
   },
