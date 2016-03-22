@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "1.12.14",
   "hash": "f644ffaea634a4d85fbb",
-  "time": 10114,
+  "time": 10767,
   "publicPath": "/dist/",
   "assetsByChunkName": {
     "app": [
@@ -661,7 +661,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/fn/regexp/escape.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/shim.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -923,7 +923,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.define-properties.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -1419,7 +1419,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/core.regexp.escape.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.define-properties.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -2608,7 +2608,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.define-property.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -3397,7 +3397,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gopd.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/_object-dp.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -5936,7 +5936,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.create.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -6576,7 +6576,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-own-property-descriptor.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-prototype-of.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9564,7 +9564,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.code-point-at.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.iterator.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11928,7 +11928,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.copy-within.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.fill.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14827,7 +14827,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.define-getter.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.define-setter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15014,7 +15014,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es7.map.to-json.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es7.set.to-json.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19103,7 +19103,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactDefaultInjection.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactDOMTextComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19420,7 +19420,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ChangeEventPlugin.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/BeforeInputEventPlugin.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19706,7 +19706,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/EventPluginHub.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/EventPropagators.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19747,7 +19747,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/EventPluginHub.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/EventPropagators.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21930,7 +21930,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ChangeEventPlugin.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/BeforeInputEventPlugin.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -22221,7 +22221,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ChangeEventPlugin.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/BeforeInputEventPlugin.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -23994,7 +23994,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactClass.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -25456,7 +25456,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-redux/lib/components/connect.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-router/lib/IndexRedirect.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -28234,7 +28234,7 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/redux/lib/createStore.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/redux/lib/combineReducers.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -29864,6 +29864,157 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
+          "size": 3134,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "448e81da829b02a8aa19",
+          "parents": [],
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+          "index": 0,
+          "index2": 2,
+          "size": 871,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "exports = module.exports = require(\"./../../../../node_modules/css-loader/lib/css-base.js\")();\n// imports\nexports.i(require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\"), undefined);\n\n// module\nexports.push([module.id, \"\", \"\", {\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"posts.css\",\"sourceRoot\":\"webpack://\"}]);\n\n// exports\nexports.locals = {\n\t\"heading\": \"_24q7z \" + require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\").locals[\"heading\"] + \"\",\n\t\"description\": \"_3o4q2 \" + require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\").locals[\"description\"] + \"\"\n};"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/lib/css-base.js",
+          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 1506,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "type": "cjs require",
+              "userRequest": "./../../../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-91"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/styles/common/page.css",
+              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
+              "type": "cjs require",
+              "userRequest": "./../../../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-91"
+            }
+          ],
+          "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\n// css base code, injected by the css-loader\r\nmodule.exports = function() {\r\n\tvar list = [];\r\n\r\n\t// return the list of modules as css string\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\r\n\t// import a list of modules into the list\r\n\tlist.i = function(modules, mediaQuery) {\r\n\t\tif(typeof modules === \"string\")\r\n\t\t\tmodules = [[null, modules, \"\"]];\r\n\t\tvar alreadyImportedModules = {};\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar id = this[i][0];\r\n\t\t\tif(typeof id === \"number\")\r\n\t\t\t\talreadyImportedModules[id] = true;\r\n\t\t}\r\n\t\tfor(i = 0; i < modules.length; i++) {\r\n\t\t\tvar item = modules[i];\r\n\t\t\t// skip already imported module\r\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\r\n\t\t\t//  when a module is imported multiple times with different media queries.\r\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\r\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\r\n\t\t\t\tif(mediaQuery && !item[2]) {\r\n\t\t\t\t\titem[2] = mediaQuery;\r\n\t\t\t\t} else if(mediaQuery) {\r\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\r\n\t\t\t\t}\r\n\t\t\t\tlist.push(item);\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n\treturn list;\r\n};\r\n"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/styles/common/page.css",
+          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
+          "index": 2,
+          "index2": 1,
+          "size": 757,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "type": "cjs require",
+              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
+              "loc": "3:10-163"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "type": "cjs require",
+              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
+              "loc": "10:24-177"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
+              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
+              "type": "cjs require",
+              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
+              "loc": "11:28-181"
+            }
+          ],
+          "source": "exports = module.exports = require(\"./../../../../node_modules/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".RFZht{margin-bottom:5px}._17oWr{display:inline-block;margin-bottom:40px;font-family:monospace}\", \"\", {\"version\":3,\"sources\":[\"/./styles/common/page.css\"],\"names\":[],\"mappings\":\"AAGA,OACE,iBAAmB,CACpB,AAGD,QACE,qBAAsB,AACtB,mBAAoB,AACpB,qBAAuB,CACxB\",\"file\":\"page.css\",\"sourcesContent\":[\"/**\\n * Page Common styles\\n */\\n.heading {\\n  margin-bottom: 5px;\\n}\\n\\n/* Description placed below the heading */\\n.description {\\n  display: inline-block;\\n  margin-bottom: 40px;\\n  font-family: monospace;\\n}\\n\"],\"sourceRoot\":\"webpack://\"}]);\n\n// exports\nexports.locals = {\n\t\"heading\": \"RFZht\",\n\t\"description\": \"_17oWr\"\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/dist/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
           "size": 3133,
           "names": [],
           "files": [
@@ -30141,157 +30292,6 @@
               "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/About/about.css",
               "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/About/about.css",
               "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/About/about.css",
-              "type": "cjs require",
-              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
-              "loc": "11:28-181"
-            }
-          ],
-          "source": "exports = module.exports = require(\"./../../../../node_modules/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".RFZht{margin-bottom:5px}._17oWr{display:inline-block;margin-bottom:40px;font-family:monospace}\", \"\", {\"version\":3,\"sources\":[\"/./styles/common/page.css\"],\"names\":[],\"mappings\":\"AAGA,OACE,iBAAmB,CACpB,AAGD,QACE,qBAAsB,AACtB,mBAAoB,AACpB,qBAAuB,CACxB\",\"file\":\"page.css\",\"sourcesContent\":[\"/**\\n * Page Common styles\\n */\\n.heading {\\n  margin-bottom: 5px;\\n}\\n\\n/* Description placed below the heading */\\n.description {\\n  display: inline-block;\\n  margin-bottom: 40px;\\n  font-family: monospace;\\n}\\n\"],\"sourceRoot\":\"webpack://\"}]);\n\n// exports\nexports.locals = {\n\t\"heading\": \"RFZht\",\n\t\"description\": \"_17oWr\"\n};"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "/dist/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
-          "size": 3134,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "448e81da829b02a8aa19",
-          "parents": [],
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-          "index": 0,
-          "index2": 2,
-          "size": 871,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "source": "exports = module.exports = require(\"./../../../../node_modules/css-loader/lib/css-base.js\")();\n// imports\nexports.i(require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\"), undefined);\n\n// module\nexports.push([module.id, \"\", \"\", {\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"posts.css\",\"sourceRoot\":\"webpack://\"}]);\n\n// exports\nexports.locals = {\n\t\"heading\": \"_24q7z \" + require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\").locals[\"heading\"] + \"\",\n\t\"description\": \"_3o4q2 \" + require(\"-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css\").locals[\"description\"] + \"\"\n};"
-        },
-        {
-          "id": 1,
-          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/lib/css-base.js",
-          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 1506,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "type": "cjs require",
-              "userRequest": "./../../../../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-91"
-            },
-            {
-              "moduleId": 2,
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/styles/common/page.css",
-              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
-              "type": "cjs require",
-              "userRequest": "./../../../../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-91"
-            }
-          ],
-          "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\n// css base code, injected by the css-loader\r\nmodule.exports = function() {\r\n\tvar list = [];\r\n\r\n\t// return the list of modules as css string\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\r\n\t// import a list of modules into the list\r\n\tlist.i = function(modules, mediaQuery) {\r\n\t\tif(typeof modules === \"string\")\r\n\t\t\tmodules = [[null, modules, \"\"]];\r\n\t\tvar alreadyImportedModules = {};\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar id = this[i][0];\r\n\t\t\tif(typeof id === \"number\")\r\n\t\t\t\talreadyImportedModules[id] = true;\r\n\t\t}\r\n\t\tfor(i = 0; i < modules.length; i++) {\r\n\t\t\tvar item = modules[i];\r\n\t\t\t// skip already imported module\r\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\r\n\t\t\t//  when a module is imported multiple times with different media queries.\r\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\r\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\r\n\t\t\t\tif(mediaQuery && !item[2]) {\r\n\t\t\t\t\titem[2] = mediaQuery;\r\n\t\t\t\t} else if(mediaQuery) {\r\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\r\n\t\t\t\t}\r\n\t\t\t\tlist.push(item);\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n\treturn list;\r\n};\r\n"
-        },
-        {
-          "id": 2,
-          "identifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/styles/common/page.css",
-          "name": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./styles/common/page.css",
-          "index": 2,
-          "index2": 1,
-          "size": 757,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "type": "cjs require",
-              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
-              "loc": "3:10-163"
-            },
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "type": "cjs require",
-              "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
-              "loc": "10:24-177"
-            },
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/vslio/Development/the-dots-demo/node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/posts.css",
-              "module": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
-              "moduleName": "/Users/vslio/Development/the-dots-demo/~/css-loader?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!./components/Posts/posts.css",
               "type": "cjs require",
               "userRequest": "-!./../../../../node_modules/css-loader/index.js?modules&sourceMap&importLoaders=1&localIdentName=[hash:base64:5]!../../styles/common/page.css",
               "loc": "11:28-181"
