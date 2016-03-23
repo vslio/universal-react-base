@@ -93,10 +93,7 @@ The app state tree is currently a simple JavaScript `Object`. For numerous reaso
 For implementation check out [this example](https://github.com/arsich/react-redux-cats/blob/master/app/reducers/cats.js).
 
 ###CSS
-For CSS I'm using `PostCSS`, `CSS Modules` and `cssnext`. For more info:
-[PostCSS](http://postcss.org)
-[CSS Modules](http://glenmaddern.com/articles/css-modules)
-[cssnext](http://cssnext.io)
+Using [PostCSS](http://postcss.org), [CSS Modules](http://glenmaddern.com/articles/css-modules) and [cssnext](http://cssnext.io)
 
 Please note:
 CSS on production is not 100% working at this stage. `cssnext` is not processing the final css file (however, it works fine in development). I will need to investigate further.
