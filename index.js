@@ -3,16 +3,11 @@
 require('babel-core/register')({})
 
 var path = require('path')
-var isDevelopment = process.env.NODE_ENV !== 'production'
-
-if (isDevelopment) {
-  var fs = require('fs')
-
-  fs.closeSync(fs.openSync(path.join(__dirname, 'webpack-assets.json'), 'w'))
-}
+var isDevelopment = (process.env.NODE_ENV !== 'production')
 
 var WebpackIsomorphicTools = require('webpack-isomorphic-tools')
 var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
+
 var projectRoot = path.join(__dirname, '/src/shared')
 
 global.webpackIsomorphicTools = new WebpackIsomorphicTools(webpackIsomorphicToolsConfig)
@@ -22,6 +17,6 @@ global.webpackIsomorphicTools = new WebpackIsomorphicTools(webpackIsomorphicTool
     var PORT = process.env.PORT || 3000
 
     server.listen(PORT, function() {
-      console.log('Server listening on: ' + PORT)
+      console.log('\n[ Server listening on: ' + PORT + ' ]')
     })
   })

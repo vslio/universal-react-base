@@ -2,14 +2,14 @@ import path from 'path'
 import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
+import { Provider } from 'react-redux'
 import { match, RouterContext, createMemoryHistory } from 'react-router';
 import createLocation from 'history/lib/createLocation'
-import { Provider } from 'react-redux'
-import configureStore from './src/shared/store/configureStore'
-import createRoutes from './src/shared/routes'
+import routes from 'routes'
+import configureStore from 'store'
 
 const server = express()
-const isDevelopment = process.env.NODE_ENV !== 'production'
+const isDevelopment = (process.env.NODE_ENV !== 'production')
 
 if (isDevelopment) {
   require('./webpack.development').default(server)
@@ -18,18 +18,17 @@ if (isDevelopment) {
 server
   .set('views', path.join(__dirname, 'src/server/views'))
   .set('view engine', 'ejs')
-
-server.use(express.static(path.join(__dirname, '/dist')))
+  .use(express.static(path.join(__dirname, '')))
 
 server.use((request, response) => {
   if (isDevelopment) {
     global.webpackIsomorphicTools.refresh()
   }
 
+  const assets = global.webpackIsomorphicTools.assets()
   const location = createLocation(request.url)
   const store = configureStore()
   const history = createMemoryHistory()
-  const routes = createRoutes(history)
 
   match({ routes, location }, (err, redirectLocation, renderProps) => {
     if (err) {
@@ -49,10 +48,20 @@ server.use((request, response) => {
         </Provider>
       )
 
+      const stylesheetURL = assets.styles.app
+      const javascriptApp = assets.javascript.app
+      const javascriptVendors = assets.javascript.vendors
+
       const componentHTML = renderToString(InitialView)
       const initialState = JSON.stringify(store.getState())
 
-      response.render('index', { componentHTML, initialState })
+      response.render('index', {
+        componentHTML,
+        initialState,
+        stylesheetURL,
+        javascriptApp,
+        javascriptVendors
+      })
     }
 
     renderView()

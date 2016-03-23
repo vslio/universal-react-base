@@ -16,7 +16,6 @@ export default function(server) {
   const config = {
     ...WebpackProductionConfig,
     devtool: 'inline-source-map',
-    context: path.join(__dirname, 'src/shared/'),
     entry: {
       vendors: [
         'webpack-hot-middleware/client',
@@ -31,13 +30,8 @@ export default function(server) {
       ],
       app: [
         'webpack-hot-middleware/client',
-        './index'
+        '../client'
       ]
-    },
-    output: {
-      path: path.join(__dirname, 'dist'),
-      filename: '[name].bundle.js',
-      publicPath: '/dist/'
     },
     module: {
       loaders: [
@@ -54,27 +48,24 @@ export default function(server) {
           test: /\.js$/,
           loader: 'babel',
           query: {
-            plugins: [
-              ['react-hmre']
-            ]
+            presets: ['react-hmre']
           },
           exclude: /node_modules/,
-          include: path.join(__dirname, 'src/')
+          include: path.join(__dirname, '/src')
         }
       ]
     },
-    resolve: {
-      extensions: ['', '.js', '.jsx']
-    },
-    postcss: () => {
-      return [cssnext]
-    },
     plugins: [
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('development')
+        }
+      }),
       new webpack.HotModuleReplacementPlugin(),
       new webpack.NoErrorsPlugin(),
       new webpack.optimize.CommonsChunkPlugin({
         name: 'vendors',
-        filename: './vendors.bundle.js'
+        filename: 'vendors.bundle.js'
       }),
       webpackIsomorphicToolsPlugin.development()
     ]

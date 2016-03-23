@@ -1,7 +1,8 @@
 var WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin')
+var isDevelopment = (process.env.NODE_ENV !== 'production')
 
-module.exports = {
-  debug: true,
+var webpackIsomorphicToolsConfig = {
+  debug: false,
   webpack_assets_file_path: '../../webpack-assets.json',
   webpack_stats_file_path: '../../webpack-stats.json',
   assets: {
@@ -40,3 +41,9 @@ module.exports = {
     }
   }
 }
+
+if (isDevelopment) {
+  webpackIsomorphicToolsConfig.debug = true
+}
+
+module.exports = webpackIsomorphicToolsConfig

@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>The Dots demo app</title>
+    <link href="<%- stylesheetURL %>" rel="stylesheet">
   </head>
   <body>
     <div id="root"><%- componentHTML %></div>
 
     <script type="text/javascript">
-      window.__INITIAL_STATE__ = '<%= initialState %>';
+      window.__INITIAL_STATE__ = '<%- initialState %>';
     </script>
-    <script src="/dist/vendors.bundle.js"></script>
-    <script src="/dist/app.bundle.js"></script>
+    <script src="<%- javascriptVendors %>"></script>
+    <script src="<%- javascriptApp %>"></script>
   </body>
 </html>
