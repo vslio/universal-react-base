@@ -33,27 +33,41 @@ cd /desired-folder/
 npm install
 ```
 
-Build the project and start development:
+To start development:
 ```
+npm run dev
+```
+
+To build the project for production:
+```
+npm run build
+```
+
+To run the production code locally:
+```
+npm run build
 npm start
 ```
 
-Success! The project is accessible on `http://localhost:3000` and the API server on `http://localhost3001`.
+
+The project is accessible on `http://localhost:3000` and the API server on `http://localhost3001`.
 
 ##Structure
     .
-    ├── shared                  # Universal files - anything react/redux related
-    │   ├── actions             # Redux action types and action creators
-    │   ├── components          # React components
-    │   ├── containers          # Top level react components
-    │   ├── reducers            # Redux reducers
-    │   ├── store               # Redux store
-    │   └── styles              # Core stylesheets (not component-specific)
-    │       └── common          # Common styles that can be composed (@extend-ed) in components
-    ├── config                  # Webpack (for now) configuration files
     ├── db                      # Storing a mock DB file for the API
     ├── dist                    # Final asset bundles (JS, images etc)
-    └── server                  # Server specific files
+    └── src                     # The source ಠ_ಠ
+        ├── client              # Master bootstrap file for the client-side
+        ├── server              # Server files
+        │   └── views           # Server template files
+        └── shared              # Universal files - anything react/redux related
+            ├── actions         # Redux action types and action creators
+            ├── components      # React components
+            ├── containers      # Top level react components
+            ├── reducers        # Redux reducers
+            ├── store           # Redux store configuration
+            └── styles          # Core stylesheets (not component-specific)
+                └── common      # Common styles that can be composed (@extend-ed) in components
 
 
 ##Things you need to know
@@ -79,4 +93,10 @@ The app state tree is currently a simple JavaScript `Object`. For numerous reaso
 For implementation check out [this example](https://github.com/arsich/react-redux-cats/blob/master/app/reducers/cats.js).
 
 ###CSS
-...
+For CSS I'm using `PostCSS`, `CSS Modules` and `cssnext`. For more info:
+[PostCSS](http://postcss.org)
+[CSS Modules](http://glenmaddern.com/articles/css-modules)
+[cssnext](http://cssnext.io)
+
+Please note:
+CSS on production is not 100% working at this stage. `cssnext` is not processing the final css file (however, it works fine in development). I will need to investigate further.
