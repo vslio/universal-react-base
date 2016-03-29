@@ -6,7 +6,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
-import { fetchPost } from '../../actions/PostsActions'
+import { fetchPost } from 'actions/PostsActions'
 import style from './singlePost.css'
 
 class SinglePost extends Component {

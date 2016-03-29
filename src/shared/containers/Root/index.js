@@ -9,7 +9,7 @@ import React, { Component } from 'react'
 import style from './root.css'
 
 // Importing child components
-import Navigation from '../../components/Navigation';
+import Navigation from 'components/Navigation';
 
 const Root = (props) => (
   <div className={style.root}>

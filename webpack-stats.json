@@ -2,17 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "1.12.14",
-  "hash": "97afa12ac1775c485b1d",
-  "time": 6578,
+  "hash": "cd96e9cc2a78ef4219b6",
+  "time": 1811,
   "publicPath": "/dist/",
   "assetsByChunkName": {
-    "app": "app.bundle.js",
+    "app": [
+      "app.bundle.js",
+      "0.7ea2fcb0884ab9df8ff2.hot-update.js"
+    ],
     "vendors": "vendors.bundle.js"
   },
   "assets": [
     {
       "name": "app.bundle.js",
-      "size": 725583,
+      "size": 725904,
       "chunks": [
         0
       ],
@@ -31,6 +34,24 @@
         "vendors"
       ],
       "emitted": true
+    },
+    {
+      "name": "0.7ea2fcb0884ab9df8ff2.hot-update.js",
+      "size": 3142,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "7ea2fcb0884ab9df8ff2.hot-update.json",
+      "size": 36,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
     }
   ],
   "chunks": [
@@ -40,14 +61,15 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 253053,
+      "size": 253154,
       "names": [
         "app"
       ],
       "files": [
-        "app.bundle.js"
+        "app.bundle.js",
+        "0.7ea2fcb0884ab9df8ff2.hot-update.js"
       ],
-      "hash": "f83a4aa9b7d2c657b93c",
+      "hash": "97e41af49a74a8e10453",
       "parents": [
         1
       ],
@@ -100,7 +122,7 @@
       "index2": 713,
       "size": 40,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -121,7 +143,7 @@
       "index2": 714,
       "size": 124,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -142,7 +164,7 @@
       "index2": 10,
       "size": 4184,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -181,7 +203,7 @@
       "index2": 0,
       "size": 251,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -240,7 +262,7 @@
       "index2": 2,
       "size": 161,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -272,7 +294,7 @@
       "index2": 1,
       "size": 135,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -304,7 +326,7 @@
       "index2": 8,
       "size": 1725,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -336,7 +358,7 @@
       "index2": 3,
       "size": 4016,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -368,7 +390,7 @@
       "index2": 7,
       "size": 231,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -400,7 +422,7 @@
       "index2": 4,
       "size": 2979,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -432,7 +454,7 @@
       "index2": 5,
       "size": 6572,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -464,7 +486,7 @@
       "index2": 6,
       "size": 48971,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -505,7 +527,7 @@
       "index2": 9,
       "size": 3881,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -537,7 +559,7 @@
       "index2": 712,
       "size": 1041,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -568,7 +590,7 @@
       "index2": 300,
       "size": 905,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -608,7 +630,7 @@
       "index2": 294,
       "size": 7221,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -640,7 +662,7 @@
       "index2": 57,
       "size": 8604,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -672,7 +694,7 @@
       "index2": 11,
       "size": 322,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -938,14 +960,14 @@
       "index2": 12,
       "size": 117,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/fn/regexp/escape.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/shim.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -1042,7 +1064,7 @@
       "index2": 13,
       "size": 117,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -1200,7 +1222,7 @@
       "index2": 15,
       "size": 177,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -1412,7 +1434,7 @@
       "index2": 14,
       "size": 99,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -1696,14 +1718,14 @@
       "index2": 28,
       "size": 1605,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.create.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -2745,7 +2767,7 @@
       "index2": 23,
       "size": 288,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -2885,7 +2907,7 @@
       "index2": 21,
       "size": 608,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3088,7 +3110,7 @@
       "index2": 17,
       "size": 149,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3417,14 +3439,14 @@
       "index2": 16,
       "size": 107,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.seal.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.freeze.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -3674,7 +3696,7 @@
       "index2": 19,
       "size": 194,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3715,7 +3737,7 @@
       "index2": 18,
       "size": 286,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3765,7 +3787,7 @@
       "index2": 20,
       "size": 644,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3878,7 +3900,7 @@
       "index2": 22,
       "size": 183,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -3973,7 +3995,7 @@
       "index2": 25,
       "size": 1055,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4113,7 +4135,7 @@
       "index2": 24,
       "size": 158,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4199,7 +4221,7 @@
       "index2": 27,
       "size": 505,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4303,7 +4325,7 @@
       "index2": 26,
       "size": 120,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4425,7 +4447,7 @@
       "index2": 29,
       "size": 1550,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4520,7 +4542,7 @@
       "index2": 30,
       "size": 198,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4579,7 +4601,7 @@
       "index2": 32,
       "size": 253,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4656,7 +4678,7 @@
       "index2": 31,
       "size": 327,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4895,7 +4917,7 @@
       "index2": 45,
       "size": 307,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -4927,7 +4949,7 @@
       "index2": 44,
       "size": 231,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5004,7 +5026,7 @@
       "index2": 42,
       "size": 562,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5045,7 +5067,7 @@
       "index2": 36,
       "size": 213,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5185,7 +5207,7 @@
       "index2": 34,
       "size": 236,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5253,7 +5275,7 @@
       "index2": 33,
       "size": 103,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5366,7 +5388,7 @@
       "index2": 35,
       "size": 157,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5488,7 +5510,7 @@
       "index2": 40,
       "size": 783,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5547,7 +5569,7 @@
       "index2": 38,
       "size": 217,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5723,7 +5745,7 @@
       "index2": 37,
       "size": 158,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5818,7 +5840,7 @@
       "index2": 39,
       "size": 230,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5904,7 +5926,7 @@
       "index2": 41,
       "size": 162,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -5954,7 +5976,7 @@
       "index2": 43,
       "size": 162,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6004,7 +6026,7 @@
       "index2": 48,
       "size": 472,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6036,7 +6058,7 @@
       "index2": 46,
       "size": 41,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6095,7 +6117,7 @@
       "index2": 47,
       "size": 36,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6163,7 +6185,7 @@
       "index2": 49,
       "size": 145,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6213,14 +6235,14 @@
       "index2": 52,
       "size": 1517,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.create.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -6299,7 +6321,7 @@
       "index2": 50,
       "size": 416,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6340,7 +6362,7 @@
       "index2": 51,
       "size": 75,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6390,7 +6412,7 @@
       "index2": 54,
       "size": 603,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6431,7 +6453,7 @@
       "index2": 53,
       "size": 296,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6517,7 +6539,7 @@
       "index2": 55,
       "size": 622,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6648,7 +6670,7 @@
       "index2": 56,
       "size": 23,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6725,7 +6747,7 @@
       "index2": 58,
       "size": 160,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6757,7 +6779,7 @@
       "index2": 59,
       "size": 216,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6789,7 +6811,7 @@
       "index2": 60,
       "size": 216,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6821,7 +6843,7 @@
       "index2": 62,
       "size": 353,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6853,14 +6875,14 @@
       "index2": 61,
       "size": 368,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-prototype-of.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-own-property-descriptor.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -6966,7 +6988,7 @@
       "index2": 65,
       "size": 275,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6998,7 +7020,7 @@
       "index2": 63,
       "size": 129,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7165,7 +7187,7 @@
       "index2": 64,
       "size": 509,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7296,7 +7318,7 @@
       "index2": 66,
       "size": 223,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7328,7 +7350,7 @@
       "index2": 67,
       "size": 147,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7360,7 +7382,7 @@
       "index2": 68,
       "size": 266,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7392,7 +7414,7 @@
       "index2": 69,
       "size": 255,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7424,7 +7446,7 @@
       "index2": 70,
       "size": 333,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7456,7 +7478,7 @@
       "index2": 71,
       "size": 239,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7488,7 +7510,7 @@
       "index2": 72,
       "size": 239,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7520,7 +7542,7 @@
       "index2": 73,
       "size": 263,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7552,7 +7574,7 @@
       "index2": 75,
       "size": 159,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7584,7 +7606,7 @@
       "index2": 74,
       "size": 1161,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7625,7 +7647,7 @@
       "index2": 77,
       "size": 136,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7657,7 +7679,7 @@
       "index2": 76,
       "size": 142,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7698,7 +7720,7 @@
       "index2": 79,
       "size": 157,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7730,7 +7752,7 @@
       "index2": 78,
       "size": 893,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7789,7 +7811,7 @@
       "index2": 81,
       "size": 319,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7821,7 +7843,7 @@
       "index2": 80,
       "size": 709,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7898,7 +7920,7 @@
       "index2": 84,
       "size": 164,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7930,7 +7952,7 @@
       "index2": 83,
       "size": 855,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7971,7 +7993,7 @@
       "index2": 82,
       "size": 709,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8030,7 +8052,7 @@
       "index2": 85,
       "size": 514,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8062,7 +8084,7 @@
       "index2": 86,
       "size": 655,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8094,7 +8116,7 @@
       "index2": 90,
       "size": 195,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8126,7 +8148,7 @@
       "index2": 89,
       "size": 403,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8167,7 +8189,7 @@
       "index2": 88,
       "size": 894,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8244,7 +8266,7 @@
       "index2": 87,
       "size": 170,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8294,7 +8316,7 @@
       "index2": 92,
       "size": 204,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8326,7 +8348,7 @@
       "index2": 91,
       "size": 361,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8367,7 +8389,7 @@
       "index2": 94,
       "size": 2934,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8399,7 +8421,7 @@
       "index2": 93,
       "size": 338,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8449,7 +8471,7 @@
       "index2": 98,
       "size": 2869,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8481,7 +8503,7 @@
       "index2": 95,
       "size": 232,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8567,14 +8589,14 @@
       "index2": 96,
       "size": 157,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.to-precision.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.to-fixed.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -8608,7 +8630,7 @@
       "index2": 97,
       "size": 366,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8658,7 +8680,7 @@
       "index2": 99,
       "size": 632,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8690,7 +8712,7 @@
       "index2": 100,
       "size": 122,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8722,7 +8744,7 @@
       "index2": 101,
       "size": 245,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8754,7 +8776,7 @@
       "index2": 103,
       "size": 142,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8786,7 +8808,7 @@
       "index2": 102,
       "size": 206,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8836,7 +8858,7 @@
       "index2": 104,
       "size": 170,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8868,7 +8890,7 @@
       "index2": 105,
       "size": 298,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8900,7 +8922,7 @@
       "index2": 106,
       "size": 140,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8932,7 +8954,7 @@
       "index2": 107,
       "size": 142,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8964,7 +8986,7 @@
       "index2": 108,
       "size": 228,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -8996,7 +9018,7 @@
       "index2": 109,
       "size": 219,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9028,7 +9050,7 @@
       "index2": 111,
       "size": 482,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9060,7 +9082,7 @@
       "index2": 110,
       "size": 152,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9101,7 +9123,7 @@
       "index2": 112,
       "size": 228,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9133,7 +9155,7 @@
       "index2": 113,
       "size": 191,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9165,7 +9187,7 @@
       "index2": 115,
       "size": 218,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9197,7 +9219,7 @@
       "index2": 114,
       "size": 131,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9247,7 +9269,7 @@
       "index2": 116,
       "size": 206,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9279,7 +9301,7 @@
       "index2": 117,
       "size": 188,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9311,7 +9333,7 @@
       "index2": 119,
       "size": 126,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9343,7 +9365,7 @@
       "index2": 118,
       "size": 165,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9393,7 +9415,7 @@
       "index2": 120,
       "size": 743,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9425,7 +9447,7 @@
       "index2": 121,
       "size": 660,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9457,7 +9479,7 @@
       "index2": 122,
       "size": 532,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9489,7 +9511,7 @@
       "index2": 123,
       "size": 164,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9521,7 +9543,7 @@
       "index2": 124,
       "size": 126,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9553,7 +9575,7 @@
       "index2": 125,
       "size": 160,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9585,7 +9607,7 @@
       "index2": 126,
       "size": 123,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9617,7 +9639,7 @@
       "index2": 127,
       "size": 454,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9649,7 +9671,7 @@
       "index2": 128,
       "size": 318,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9681,7 +9703,7 @@
       "index2": 129,
       "size": 179,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9713,7 +9735,7 @@
       "index2": 130,
       "size": 848,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9745,7 +9767,7 @@
       "index2": 131,
       "size": 516,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9777,7 +9799,7 @@
       "index2": 132,
       "size": 163,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9809,7 +9831,7 @@
       "index2": 137,
       "size": 523,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9841,7 +9863,7 @@
       "index2": 133,
       "size": 611,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9891,7 +9913,7 @@
       "index2": 136,
       "size": 2824,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -9941,7 +9963,7 @@
       "index2": 134,
       "size": 20,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10027,7 +10049,7 @@
       "index2": 135,
       "size": 528,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10077,7 +10099,7 @@
       "index2": 138,
       "size": 250,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10109,7 +10131,7 @@
       "index2": 142,
       "size": 840,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10141,7 +10163,7 @@
       "index2": 140,
       "size": 309,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10191,7 +10213,7 @@
       "index2": 139,
       "size": 292,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10250,7 +10272,7 @@
       "index2": 141,
       "size": 244,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10300,7 +10322,7 @@
       "index2": 143,
       "size": 476,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10332,7 +10354,7 @@
       "index2": 144,
       "size": 155,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10364,7 +10386,7 @@
       "index2": 145,
       "size": 767,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10396,7 +10418,7 @@
       "index2": 147,
       "size": 200,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10428,7 +10450,7 @@
       "index2": 146,
       "size": 696,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10568,7 +10590,7 @@
       "index2": 148,
       "size": 179,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10600,7 +10622,7 @@
       "index2": 149,
       "size": 187,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10632,7 +10654,7 @@
       "index2": 150,
       "size": 180,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10664,7 +10686,7 @@
       "index2": 151,
       "size": 184,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10696,7 +10718,7 @@
       "index2": 152,
       "size": 216,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10728,7 +10750,7 @@
       "index2": 153,
       "size": 209,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10760,7 +10782,7 @@
       "index2": 154,
       "size": 189,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10792,7 +10814,7 @@
       "index2": 155,
       "size": 192,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10824,7 +10846,7 @@
       "index2": 156,
       "size": 188,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10856,7 +10878,7 @@
       "index2": 157,
       "size": 192,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10888,7 +10910,7 @@
       "index2": 158,
       "size": 180,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10920,7 +10942,7 @@
       "index2": 159,
       "size": 180,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10952,7 +10974,7 @@
       "index2": 160,
       "size": 152,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -10984,7 +11006,7 @@
       "index2": 161,
       "size": 510,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11016,7 +11038,7 @@
       "index2": 162,
       "size": 1036,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11048,7 +11070,7 @@
       "index2": 163,
       "size": 393,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11080,7 +11102,7 @@
       "index2": 165,
       "size": 192,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11112,7 +11134,7 @@
       "index2": 164,
       "size": 326,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11144,7 +11166,7 @@
       "index2": 166,
       "size": 145,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11176,7 +11198,7 @@
       "index2": 171,
       "size": 1570,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11208,7 +11230,7 @@
       "index2": 167,
       "size": 403,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11249,7 +11271,7 @@
       "index2": 168,
       "size": 277,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11299,7 +11321,7 @@
       "index2": 169,
       "size": 293,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11349,7 +11371,7 @@
       "index2": 170,
       "size": 567,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11408,7 +11430,7 @@
       "index2": 172,
       "size": 526,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11440,7 +11462,7 @@
       "index2": 174,
       "size": 462,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11472,7 +11494,7 @@
       "index2": 173,
       "size": 193,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11594,7 +11616,7 @@
       "index2": 175,
       "size": 936,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11626,7 +11648,7 @@
       "index2": 176,
       "size": 670,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11658,7 +11680,7 @@
       "index2": 179,
       "size": 413,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11690,7 +11712,7 @@
       "index2": 178,
       "size": 1563,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11803,7 +11825,7 @@
       "index2": 177,
       "size": 538,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11835,7 +11857,7 @@
       "index2": 180,
       "size": 368,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11867,7 +11889,7 @@
       "index2": 181,
       "size": 382,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11899,7 +11921,7 @@
       "index2": 182,
       "size": 373,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11931,7 +11953,7 @@
       "index2": 183,
       "size": 377,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11963,7 +11985,7 @@
       "index2": 185,
       "size": 414,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -11995,7 +12017,7 @@
       "index2": 184,
       "size": 843,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12036,7 +12058,7 @@
       "index2": 186,
       "size": 433,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12068,7 +12090,7 @@
       "index2": 187,
       "size": 405,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12100,7 +12122,7 @@
       "index2": 188,
       "size": 769,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12132,7 +12154,7 @@
       "index2": 191,
       "size": 234,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12164,7 +12186,7 @@
       "index2": 189,
       "size": 833,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12205,7 +12227,7 @@
       "index2": 190,
       "size": 292,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12282,7 +12304,7 @@
       "index2": 193,
       "size": 212,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12314,7 +12336,7 @@
       "index2": 192,
       "size": 610,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12364,7 +12386,7 @@
       "index2": 194,
       "size": 523,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12396,7 +12418,7 @@
       "index2": 195,
       "size": 543,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12428,7 +12450,7 @@
       "index2": 197,
       "size": 35,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12460,7 +12482,7 @@
       "index2": 196,
       "size": 367,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12537,7 +12559,7 @@
       "index2": 199,
       "size": 1133,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12587,7 +12609,7 @@
       "index2": 198,
       "size": 81,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12628,7 +12650,7 @@
       "index2": 201,
       "size": 1713,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12660,7 +12682,7 @@
       "index2": 200,
       "size": 375,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12719,7 +12741,7 @@
       "index2": 203,
       "size": 845,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12751,7 +12773,7 @@
       "index2": 202,
       "size": 198,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12792,7 +12814,7 @@
       "index2": 205,
       "size": 381,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12824,7 +12846,7 @@
       "index2": 204,
       "size": 944,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12883,7 +12905,7 @@
       "index2": 206,
       "size": 491,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12915,7 +12937,7 @@
       "index2": 207,
       "size": 390,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12947,7 +12969,7 @@
       "index2": 208,
       "size": 3320,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -12979,7 +13001,7 @@
       "index2": 214,
       "size": 10096,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13011,7 +13033,7 @@
       "index2": 209,
       "size": 940,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13079,7 +13101,7 @@
       "index2": 210,
       "size": 340,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13129,7 +13151,7 @@
       "index2": 211,
       "size": 2276,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13179,7 +13201,7 @@
       "index2": 212,
       "size": 1553,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13211,7 +13233,7 @@
       "index2": 213,
       "size": 164,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13288,7 +13310,7 @@
       "index2": 217,
       "size": 541,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13329,7 +13351,7 @@
       "index2": 215,
       "size": 4871,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13370,7 +13392,7 @@
       "index2": 216,
       "size": 3400,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13429,7 +13451,7 @@
       "index2": 218,
       "size": 396,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13470,7 +13492,7 @@
       "index2": 220,
       "size": 1833,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13511,7 +13533,7 @@
       "index2": 219,
       "size": 2694,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13552,7 +13574,7 @@
       "index2": 221,
       "size": 373,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13584,7 +13606,7 @@
       "index2": 224,
       "size": 1853,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13616,7 +13638,7 @@
       "index2": 222,
       "size": 671,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13675,7 +13697,7 @@
       "index2": 223,
       "size": 9661,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13725,7 +13747,7 @@
       "index2": 225,
       "size": 159,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13757,7 +13779,7 @@
       "index2": 228,
       "size": 165,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13789,7 +13811,7 @@
       "index2": 227,
       "size": 18923,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13893,7 +13915,7 @@
       "index2": 226,
       "size": 317,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13925,7 +13947,7 @@
       "index2": 229,
       "size": 167,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13957,7 +13979,7 @@
       "index2": 230,
       "size": 180,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13989,7 +14011,7 @@
       "index2": 231,
       "size": 167,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14021,7 +14043,7 @@
       "index2": 232,
       "size": 169,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14053,7 +14075,7 @@
       "index2": 233,
       "size": 167,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14085,7 +14107,7 @@
       "index2": 234,
       "size": 169,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14117,7 +14139,7 @@
       "index2": 235,
       "size": 171,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14149,7 +14171,7 @@
       "index2": 236,
       "size": 171,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14181,7 +14203,7 @@
       "index2": 237,
       "size": 289,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14213,7 +14235,7 @@
       "index2": 238,
       "size": 1639,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14245,7 +14267,7 @@
       "index2": 239,
       "size": 763,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14277,7 +14299,7 @@
       "index2": 240,
       "size": 405,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14309,7 +14331,7 @@
       "index2": 241,
       "size": 732,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14341,7 +14363,7 @@
       "index2": 242,
       "size": 811,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14373,7 +14395,7 @@
       "index2": 243,
       "size": 355,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14405,7 +14427,7 @@
       "index2": 244,
       "size": 287,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14437,7 +14459,7 @@
       "index2": 245,
       "size": 195,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14469,7 +14491,7 @@
       "index2": 246,
       "size": 332,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14501,7 +14523,7 @@
       "index2": 248,
       "size": 137,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14533,7 +14555,7 @@
       "index2": 247,
       "size": 418,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14574,7 +14596,7 @@
       "index2": 249,
       "size": 437,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14606,7 +14628,7 @@
       "index2": 250,
       "size": 1188,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14638,7 +14660,7 @@
       "index2": 251,
       "size": 376,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14670,7 +14692,7 @@
       "index2": 252,
       "size": 377,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14702,7 +14724,7 @@
       "index2": 253,
       "size": 240,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14734,7 +14756,7 @@
       "index2": 255,
       "size": 340,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14766,7 +14788,7 @@
       "index2": 254,
       "size": 768,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14807,7 +14829,7 @@
       "index2": 256,
       "size": 337,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14839,7 +14861,7 @@
       "index2": 257,
       "size": 215,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14871,7 +14893,7 @@
       "index2": 258,
       "size": 215,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14903,7 +14925,7 @@
       "index2": 259,
       "size": 1065,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14935,7 +14957,7 @@
       "index2": 260,
       "size": 754,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14967,7 +14989,7 @@
       "index2": 262,
       "size": 239,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14999,7 +15021,7 @@
       "index2": 261,
       "size": 469,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15040,7 +15062,7 @@
       "index2": 263,
       "size": 243,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15072,7 +15094,7 @@
       "index2": 265,
       "size": 530,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15104,7 +15126,7 @@
       "index2": 264,
       "size": 290,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15163,7 +15185,7 @@
       "index2": 266,
       "size": 530,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15195,7 +15217,7 @@
       "index2": 267,
       "size": 686,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15227,7 +15249,7 @@
       "index2": 268,
       "size": 686,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15259,7 +15281,7 @@
       "index2": 271,
       "size": 186,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15291,7 +15313,7 @@
       "index2": 270,
       "size": 313,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15332,7 +15354,7 @@
       "index2": 269,
       "size": 170,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15373,7 +15395,7 @@
       "index2": 272,
       "size": 186,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15405,7 +15427,7 @@
       "index2": 273,
       "size": 143,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15437,7 +15459,7 @@
       "index2": 274,
       "size": 218,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15469,7 +15491,7 @@
       "index2": 275,
       "size": 335,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15501,7 +15523,7 @@
       "index2": 276,
       "size": 334,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15533,7 +15555,7 @@
       "index2": 277,
       "size": 436,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15565,7 +15587,7 @@
       "index2": 278,
       "size": 440,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15597,7 +15619,7 @@
       "index2": 280,
       "size": 406,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15629,7 +15651,7 @@
       "index2": 279,
       "size": 1780,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15733,7 +15755,7 @@
       "index2": 281,
       "size": 750,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15765,7 +15787,7 @@
       "index2": 282,
       "size": 796,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15797,7 +15819,7 @@
       "index2": 283,
       "size": 861,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15829,7 +15851,7 @@
       "index2": 284,
       "size": 417,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15861,7 +15883,7 @@
       "index2": 285,
       "size": 400,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15893,7 +15915,7 @@
       "index2": 286,
       "size": 713,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15925,7 +15947,7 @@
       "index2": 287,
       "size": 417,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15957,7 +15979,7 @@
       "index2": 288,
       "size": 551,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -15989,7 +16011,7 @@
       "index2": 291,
       "size": 702,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16021,7 +16043,7 @@
       "index2": 290,
       "size": 757,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16053,7 +16075,7 @@
       "index2": 289,
       "size": 38,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16085,7 +16107,7 @@
       "index2": 292,
       "size": 164,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16117,7 +16139,7 @@
       "index2": 293,
       "size": 881,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16149,7 +16171,7 @@
       "index2": 296,
       "size": 21453,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16181,7 +16203,7 @@
       "index2": 295,
       "size": 2056,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16213,7 +16235,7 @@
       "index2": 299,
       "size": 107,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16245,7 +16267,7 @@
       "index2": 298,
       "size": 232,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16277,7 +16299,7 @@
       "index2": 297,
       "size": 227,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16309,7 +16331,7 @@
       "index2": 456,
       "size": 56,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16583,7 +16605,7 @@
       "index2": 455,
       "size": 1490,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16615,7 +16637,7 @@
       "index2": 444,
       "size": 3709,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16656,7 +16678,7 @@
       "index2": 301,
       "size": 653,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16760,7 +16782,7 @@
       "index2": 366,
       "size": 4317,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16801,7 +16823,7 @@
       "index2": 316,
       "size": 4996,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16842,7 +16864,7 @@
       "index2": 309,
       "size": 6962,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -16874,7 +16896,7 @@
       "index2": 302,
       "size": 1094,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17050,7 +17072,7 @@
       "index2": 307,
       "size": 2712,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17082,7 +17104,7 @@
       "index2": 305,
       "size": 2358,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17114,7 +17136,7 @@
       "index2": 304,
       "size": 1981,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17146,7 +17168,7 @@
       "index2": 303,
       "size": 1515,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17493,7 +17515,7 @@
       "index2": 306,
       "size": 3064,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17534,7 +17556,7 @@
       "index2": 308,
       "size": 1086,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17647,7 +17669,7 @@
       "index2": 311,
       "size": 861,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17688,7 +17710,7 @@
       "index2": 310,
       "size": 1271,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17747,7 +17769,7 @@
       "index2": 312,
       "size": 2510,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17878,7 +17900,7 @@
       "index2": 313,
       "size": 3348,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17937,7 +17959,7 @@
       "index2": 315,
       "size": 1200,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -17987,7 +18009,7 @@
       "index2": 314,
       "size": 849,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18046,7 +18068,7 @@
       "index2": 320,
       "size": 7880,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18096,7 +18118,7 @@
       "index2": 317,
       "size": 9571,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18182,7 +18204,7 @@
       "index2": 318,
       "size": 746,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18214,7 +18236,7 @@
       "index2": 319,
       "size": 1771,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18480,7 +18502,7 @@
       "index2": 365,
       "size": 1258,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18530,7 +18552,7 @@
       "index2": 364,
       "size": 3294,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18580,7 +18602,7 @@
       "index2": 363,
       "size": 36774,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18738,7 +18760,7 @@
       "index2": 332,
       "size": 12417,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18797,7 +18819,7 @@
       "index2": 321,
       "size": 2036,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18901,7 +18923,7 @@
       "index2": 327,
       "size": 9218,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18969,7 +18991,7 @@
       "index2": 322,
       "size": 8411,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19010,7 +19032,7 @@
       "index2": 324,
       "size": 6785,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19042,7 +19064,7 @@
       "index2": 323,
       "size": 2273,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19083,7 +19105,7 @@
       "index2": 325,
       "size": 1743,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19124,7 +19146,7 @@
       "index2": 326,
       "size": 893,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19165,7 +19187,7 @@
       "index2": 328,
       "size": 1303,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19197,7 +19219,7 @@
       "index2": 329,
       "size": 638,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19238,7 +19260,7 @@
       "index2": 330,
       "size": 1261,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19513,7 +19535,7 @@
       "index2": 331,
       "size": 1972,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19563,7 +19585,7 @@
       "index2": 333,
       "size": 458,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19604,14 +19626,14 @@
       "index2": 335,
       "size": 8075,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactMount.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactIsomorphic.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19744,14 +19766,14 @@
       "index2": 334,
       "size": 629,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactDOMComponent.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19803,7 +19825,7 @@
       "index2": 336,
       "size": 1380,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19844,7 +19866,7 @@
       "index2": 338,
       "size": 10649,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19921,7 +19943,7 @@
       "index2": 337,
       "size": 723,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19962,7 +19984,7 @@
       "index2": 339,
       "size": 1253,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20030,7 +20052,7 @@
       "index2": 341,
       "size": 1386,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20071,7 +20093,7 @@
       "index2": 340,
       "size": 1196,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20103,7 +20125,7 @@
       "index2": 344,
       "size": 3550,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20189,7 +20211,7 @@
       "index2": 343,
       "size": 2342,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20221,7 +20243,7 @@
       "index2": 342,
       "size": 3446,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20253,7 +20275,7 @@
       "index2": 349,
       "size": 10938,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20303,7 +20325,7 @@
       "index2": 348,
       "size": 8542,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20425,7 +20447,7 @@
       "index2": 346,
       "size": 2436,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20475,7 +20497,7 @@
       "index2": 345,
       "size": 3546,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20570,7 +20592,7 @@
       "index2": 347,
       "size": 9551,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20629,7 +20651,7 @@
       "index2": 350,
       "size": 482,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20697,7 +20719,7 @@
       "index2": 353,
       "size": 1432,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20738,7 +20760,7 @@
       "index2": 352,
       "size": 628,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20770,7 +20792,7 @@
       "index2": 351,
       "size": 712,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20802,7 +20824,7 @@
       "index2": 361,
       "size": 4520,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20852,7 +20874,7 @@
       "index2": 358,
       "size": 27473,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20884,7 +20906,7 @@
       "index2": 354,
       "size": 1671,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20934,7 +20956,7 @@
       "index2": 355,
       "size": 549,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20993,7 +21015,7 @@
       "index2": 356,
       "size": 611,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21052,7 +21074,7 @@
       "index2": 357,
       "size": 1488,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21102,7 +21124,7 @@
       "index2": 359,
       "size": 1678,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21143,7 +21165,7 @@
       "index2": 360,
       "size": 3020,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21184,7 +21206,7 @@
       "index2": 362,
       "size": 13117,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21234,7 +21256,7 @@
       "index2": 441,
       "size": 3986,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21275,7 +21297,7 @@
       "index2": 374,
       "size": 14866,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21307,7 +21329,7 @@
       "index2": 367,
       "size": 5224,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21375,7 +21397,7 @@
       "index2": 369,
       "size": 2493,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21407,7 +21429,7 @@
       "index2": 368,
       "size": 994,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21448,7 +21470,7 @@
       "index2": 371,
       "size": 1161,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21480,7 +21502,7 @@
       "index2": 370,
       "size": 5789,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21566,7 +21588,7 @@
       "index2": 372,
       "size": 1145,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21598,14 +21620,14 @@
       "index2": 373,
       "size": 1113,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/BeforeInputEventPlugin.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react/lib/ReactClass.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21693,7 +21715,7 @@
       "index2": 377,
       "size": 11501,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21725,7 +21747,7 @@
       "index2": 375,
       "size": 930,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21775,7 +21797,7 @@
       "index2": 376,
       "size": 1029,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21816,7 +21838,7 @@
       "index2": 378,
       "size": 551,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21848,7 +21870,7 @@
       "index2": 379,
       "size": 1261,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21880,7 +21902,7 @@
       "index2": 383,
       "size": 3905,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21912,7 +21934,7 @@
       "index2": 382,
       "size": 2197,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -21971,7 +21993,7 @@
       "index2": 380,
       "size": 1642,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22039,7 +22061,7 @@
       "index2": 381,
       "size": 1298,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22089,7 +22111,7 @@
       "index2": 384,
       "size": 7628,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22121,7 +22143,7 @@
       "index2": 386,
       "size": 1149,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22153,7 +22175,7 @@
       "index2": 385,
       "size": 2174,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22203,7 +22225,7 @@
       "index2": 387,
       "size": 1916,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22244,7 +22266,7 @@
       "index2": 412,
       "size": 36947,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22276,7 +22298,7 @@
       "index2": 389,
       "size": 816,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22308,7 +22330,7 @@
       "index2": 388,
       "size": 725,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22349,7 +22371,7 @@
       "index2": 397,
       "size": 5710,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22381,7 +22403,7 @@
       "index2": 390,
       "size": 3501,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22422,7 +22444,7 @@
       "index2": 392,
       "size": 1031,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22454,7 +22476,7 @@
       "index2": 391,
       "size": 729,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22486,7 +22508,7 @@
       "index2": 393,
       "size": 1927,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22518,7 +22540,7 @@
       "index2": 395,
       "size": 1005,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22550,7 +22572,7 @@
       "index2": 394,
       "size": 822,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22582,7 +22604,7 @@
       "index2": 396,
       "size": 778,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22614,7 +22636,7 @@
       "index2": 398,
       "size": 1154,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22646,7 +22668,7 @@
       "index2": 402,
       "size": 5743,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22678,7 +22700,7 @@
       "index2": 401,
       "size": 5179,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22728,7 +22750,7 @@
       "index2": 400,
       "size": 12346,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22769,7 +22791,7 @@
       "index2": 399,
       "size": 1171,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22819,7 +22841,7 @@
       "index2": 406,
       "size": 2822,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22851,7 +22873,7 @@
       "index2": 404,
       "size": 5835,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22892,7 +22914,7 @@
       "index2": 403,
       "size": 6897,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22942,7 +22964,7 @@
       "index2": 405,
       "size": 6106,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22983,7 +23005,7 @@
       "index2": 407,
       "size": 4347,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23015,7 +23037,7 @@
       "index2": 410,
       "size": 14685,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23047,7 +23069,7 @@
       "index2": 408,
       "size": 4521,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23079,7 +23101,7 @@
       "index2": 409,
       "size": 1653,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23111,7 +23133,7 @@
       "index2": 411,
       "size": 1276,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23152,7 +23174,7 @@
       "index2": 415,
       "size": 7513,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23184,7 +23206,7 @@
       "index2": 413,
       "size": 2653,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23225,7 +23247,7 @@
       "index2": 414,
       "size": 1091,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23257,7 +23279,7 @@
       "index2": 419,
       "size": 1368,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23289,7 +23311,7 @@
       "index2": 418,
       "size": 27823,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23330,7 +23352,7 @@
       "index2": 417,
       "size": 5041,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23371,7 +23393,7 @@
       "index2": 416,
       "size": 3937,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23412,7 +23434,7 @@
       "index2": 424,
       "size": 4581,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23444,7 +23466,7 @@
       "index2": 423,
       "size": 4320,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23485,7 +23507,7 @@
       "index2": 421,
       "size": 6827,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23517,7 +23539,7 @@
       "index2": 420,
       "size": 1658,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23549,7 +23571,7 @@
       "index2": 422,
       "size": 924,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23590,7 +23612,7 @@
       "index2": 425,
       "size": 6705,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23622,7 +23644,7 @@
       "index2": 426,
       "size": 868,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23654,7 +23676,7 @@
       "index2": 435,
       "size": 17439,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23686,7 +23708,7 @@
       "index2": 427,
       "size": 1229,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23718,7 +23740,7 @@
       "index2": 428,
       "size": 1122,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23750,7 +23772,7 @@
       "index2": 431,
       "size": 2764,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23782,7 +23804,7 @@
       "index2": 429,
       "size": 1564,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23832,7 +23854,7 @@
       "index2": 430,
       "size": 2927,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23864,7 +23886,7 @@
       "index2": 432,
       "size": 1126,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23896,7 +23918,7 @@
       "index2": 433,
       "size": 1333,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23928,7 +23950,7 @@
       "index2": 434,
       "size": 1992,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23960,7 +23982,7 @@
       "index2": 436,
       "size": 3799,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23992,7 +24014,7 @@
       "index2": 440,
       "size": 8632,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24024,7 +24046,7 @@
       "index2": 437,
       "size": 5785,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24056,7 +24078,7 @@
       "index2": 439,
       "size": 844,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24088,7 +24110,7 @@
       "index2": 438,
       "size": 612,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24120,7 +24142,7 @@
       "index2": 442,
       "size": 379,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24170,7 +24192,7 @@
       "index2": 443,
       "size": 463,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24202,7 +24224,7 @@
       "index2": 448,
       "size": 766,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24234,7 +24256,7 @@
       "index2": 447,
       "size": 3298,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24266,7 +24288,7 @@
       "index2": 445,
       "size": 673,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24298,7 +24320,7 @@
       "index2": 446,
       "size": 2300,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24330,7 +24352,7 @@
       "index2": 453,
       "size": 2054,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24362,7 +24384,7 @@
       "index2": 451,
       "size": 3357,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24394,7 +24416,7 @@
       "index2": 449,
       "size": 10768,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24435,7 +24457,7 @@
       "index2": 450,
       "size": 1466,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24467,7 +24489,7 @@
       "index2": 452,
       "size": 1211,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24499,7 +24521,7 @@
       "index2": 454,
       "size": 1768,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24531,7 +24553,7 @@
       "index2": 457,
       "size": 63,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24571,7 +24593,7 @@
       "index2": 514,
       "size": 3299,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24647,7 +24669,7 @@
       "index2": 493,
       "size": 7600,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24679,7 +24701,7 @@
       "index2": 474,
       "size": 7448,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24720,14 +24742,14 @@
       "index2": 458,
       "size": 1807,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-router/lib/routerWarning.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -24833,7 +24855,7 @@
       "index2": 459,
       "size": 1516,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24973,14 +24995,14 @@
       "index2": 460,
       "size": 720,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-router/lib/createTransitionManager.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -25050,7 +25072,7 @@
       "index2": 461,
       "size": 1200,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25136,7 +25158,7 @@
       "index2": 462,
       "size": 175,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25195,7 +25217,7 @@
       "index2": 463,
       "size": 2301,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25245,7 +25267,7 @@
       "index2": 464,
       "size": 2147,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25286,7 +25308,7 @@
       "index2": 473,
       "size": 1294,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25327,7 +25349,7 @@
       "index2": 472,
       "size": 8426,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25368,7 +25390,7 @@
       "index2": 467,
       "size": 3051,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25400,7 +25422,7 @@
       "index2": 465,
       "size": 202,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25432,7 +25454,7 @@
       "index2": 466,
       "size": 641,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25464,7 +25486,7 @@
       "index2": 468,
       "size": 1066,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25496,7 +25518,7 @@
       "index2": 469,
       "size": 1747,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25528,7 +25550,7 @@
       "index2": 470,
       "size": 775,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25578,7 +25600,7 @@
       "index2": 471,
       "size": 509,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25628,7 +25650,7 @@
       "index2": 477,
       "size": 5986,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25687,7 +25709,7 @@
       "index2": 476,
       "size": 1481,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25719,7 +25741,7 @@
       "index2": 475,
       "size": 182,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25751,7 +25773,7 @@
       "index2": 487,
       "size": 10034,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25801,7 +25823,7 @@
       "index2": 478,
       "size": 674,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25959,7 +25981,7 @@
       "index2": 480,
       "size": 1943,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25991,7 +26013,7 @@
       "index2": 479,
       "size": 6795,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26068,7 +26090,7 @@
       "index2": 482,
       "size": 2489,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26100,7 +26122,7 @@
       "index2": 481,
       "size": 1683,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26150,7 +26172,7 @@
       "index2": 483,
       "size": 3176,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26182,7 +26204,7 @@
       "index2": 484,
       "size": 971,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26214,7 +26236,7 @@
       "index2": 486,
       "size": 6460,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26246,7 +26268,7 @@
       "index2": 485,
       "size": 3525,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26341,7 +26363,7 @@
       "index2": 488,
       "size": 1318,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26427,7 +26449,7 @@
       "index2": 491,
       "size": 4948,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26477,7 +26499,7 @@
       "index2": 489,
       "size": 1449,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26518,7 +26540,7 @@
       "index2": 490,
       "size": 578,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26550,7 +26572,7 @@
       "index2": 492,
       "size": 1260,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26591,7 +26613,7 @@
       "index2": 494,
       "size": 5103,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26632,7 +26654,7 @@
       "index2": 495,
       "size": 924,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26664,7 +26686,7 @@
       "index2": 497,
       "size": 1849,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26696,7 +26718,7 @@
       "index2": 496,
       "size": 2918,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26737,7 +26759,7 @@
       "index2": 498,
       "size": 1751,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26769,7 +26791,7 @@
       "index2": 499,
       "size": 1676,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26801,7 +26823,7 @@
       "index2": 500,
       "size": 841,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26833,7 +26855,7 @@
       "index2": 501,
       "size": 2739,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26865,7 +26887,7 @@
       "index2": 502,
       "size": 1230,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26897,7 +26919,7 @@
       "index2": 503,
       "size": 2118,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26929,7 +26951,7 @@
       "index2": 504,
       "size": 1037,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26961,7 +26983,7 @@
       "index2": 508,
       "size": 3153,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26993,7 +27015,7 @@
       "index2": 507,
       "size": 1235,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27034,7 +27056,7 @@
       "index2": 505,
       "size": 4268,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27075,7 +27097,7 @@
       "index2": 506,
       "size": 4308,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27107,7 +27129,7 @@
       "index2": 509,
       "size": 755,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27148,7 +27170,7 @@
       "index2": 512,
       "size": 596,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27180,7 +27202,7 @@
       "index2": 510,
       "size": 5222,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27212,7 +27234,7 @@
       "index2": 511,
       "size": 579,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27253,7 +27275,7 @@
       "index2": 513,
       "size": 581,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27285,7 +27307,7 @@
       "index2": 534,
       "size": 475,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27343,7 +27365,7 @@
       "index2": 516,
       "size": 2939,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27375,7 +27397,7 @@
       "index2": 515,
       "size": 262,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27416,7 +27438,7 @@
       "index2": 533,
       "size": 12833,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27448,7 +27470,7 @@
       "index2": 517,
       "size": 543,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27480,7 +27502,7 @@
       "index2": 528,
       "size": 268,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27512,7 +27534,7 @@
       "index2": 527,
       "size": 1941,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27570,7 +27592,7 @@
       "index2": 521,
       "size": 7684,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27611,7 +27633,7 @@
       "index2": 520,
       "size": 1721,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27652,7 +27674,7 @@
       "index2": 518,
       "size": 552,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27684,7 +27706,7 @@
       "index2": 519,
       "size": 592,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27716,7 +27738,7 @@
       "index2": 523,
       "size": 5520,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27748,7 +27770,7 @@
       "index2": 522,
       "size": 665,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27789,7 +27811,7 @@
       "index2": 524,
       "size": 2043,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27821,7 +27843,7 @@
       "index2": 526,
       "size": 2034,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27853,7 +27875,7 @@
       "index2": 525,
       "size": 830,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27894,7 +27916,7 @@
       "index2": 531,
       "size": 1721,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27926,7 +27948,7 @@
       "index2": 529,
       "size": 552,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27958,7 +27980,7 @@
       "index2": 530,
       "size": 592,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27990,7 +28012,7 @@
       "index2": 532,
       "size": 921,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28022,7 +28044,7 @@
       "index2": 704,
       "size": 1483,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28052,9 +28074,9 @@
       "name": "./containers/Root/index.js",
       "index": 538,
       "index2": 545,
-      "size": 1264,
+      "size": 1258,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28076,7 +28098,7 @@
           "loc": "13:12-40"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _root = require('./root.css');\n\nvar _root2 = _interopRequireDefault(_root);\n\nvar _Navigation = require('../../components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Root = function Root(props) {\n  return _react2.default.createElement(\n    'div',\n    { className: _root2.default.root },\n    _react2.default.createElement(\n      'header',\n      { className: _root2.default.header },\n      _react2.default.createElement(\n        'h1',\n        { className: _root2.default.heading },\n        'The Dots'\n      ),\n      _react2.default.createElement(_Navigation2.default, null)\n    ),\n    _react2.default.createElement(\n      'div',\n      null,\n      props.children\n    )\n  );\n};\n\n// Importing child components\n/**\n * Root component\n * @notes Exposing it as a stateless function instead of a `class`.\n *        For more information check the following URL:\n *        https://facebook.github.io/react/docs/reusable-components.html#stateless-functions\n */\n\nexports.default = Root;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _root = require('./root.css');\n\nvar _root2 = _interopRequireDefault(_root);\n\nvar _Navigation = require('components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Root = function Root(props) {\n  return _react2.default.createElement(\n    'div',\n    { className: _root2.default.root },\n    _react2.default.createElement(\n      'header',\n      { className: _root2.default.header },\n      _react2.default.createElement(\n        'h1',\n        { className: _root2.default.heading },\n        'The Dots'\n      ),\n      _react2.default.createElement(_Navigation2.default, null)\n    ),\n    _react2.default.createElement(\n      'div',\n      null,\n      props.children\n    )\n  );\n};\n\n// Importing child components\n/**\n * Root component\n * @notes Exposing it as a stateless function instead of a `class`.\n *        For more information check the following URL:\n *        https://facebook.github.io/react/docs/reusable-components.html#stateless-functions\n */\n\nexports.default = Root;"
     },
     {
       "id": 539,
@@ -28086,7 +28108,7 @@
       "index2": 541,
       "size": 1339,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28118,7 +28140,7 @@
       "index2": 539,
       "size": 2120,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28168,7 +28190,7 @@
       "index2": 535,
       "size": 1506,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28308,7 +28330,7 @@
       "index2": 536,
       "size": 19121,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28340,7 +28362,7 @@
       "index2": 537,
       "size": 1458,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28372,7 +28394,7 @@
       "index2": 538,
       "size": 3483,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28404,7 +28426,7 @@
       "index2": 540,
       "size": 7212,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28499,7 +28521,7 @@
       "index2": 544,
       "size": 2162,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28517,8 +28539,8 @@
           "module": "./containers/Root/index.js",
           "moduleName": "./containers/Root/index.js",
           "type": "cjs require",
-          "userRequest": "../../components/Navigation",
-          "loc": "15:18-56"
+          "userRequest": "components/Navigation",
+          "loc": "15:18-50"
         }
       ],
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouter = require('react-router');\n\nvar _navigation = require('./navigation.css');\n\nvar _navigation2 = _interopRequireDefault(_navigation);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Navigation = function Navigation() {\n  return _react2.default.createElement(\n    'ul',\n    { className: _navigation2.default.navigation },\n    _react2.default.createElement(\n      'li',\n      { className: _navigation2.default.item },\n      _react2.default.createElement(\n        _reactRouter.Link,\n        {\n          to: '/',\n          className: _navigation2.default.link,\n          activeClassName: _navigation2.default.active,\n          onlyActiveOnIndex: true },\n        'Home'\n      )\n    ),\n    _react2.default.createElement(\n      'li',\n      { className: _navigation2.default.item },\n      _react2.default.createElement(\n        _reactRouter.Link,\n        {\n          to: '/about',\n          className: _navigation2.default.link,\n          activeClassName: _navigation2.default.active },\n        'About'\n      )\n    ),\n    _react2.default.createElement(\n      'li',\n      { className: _navigation2.default.item },\n      _react2.default.createElement(\n        _reactRouter.Link,\n        {\n          to: '/posts',\n          className: _navigation2.default.link,\n          activeClassName: _navigation2.default.active },\n        'Posts'\n      )\n    ),\n    _react2.default.createElement(\n      'li',\n      { className: _navigation2.default.itemLogin },\n      _react2.default.createElement(\n        _reactRouter.Link,\n        {\n          to: '/login',\n          className: _navigation2.default.link,\n          activeClassName: _navigation2.default.active },\n        'Login'\n      )\n    )\n  );\n}; /**\n    * Navigation component\n    * @description This is the main navigation component of the app.\n    *              It's rendered on all pages and it's part of the\n    *              `Root` container/component\n    */\n\n\nexports.default = Navigation;"
@@ -28531,7 +28553,7 @@
       "index2": 543,
       "size": 1357,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28563,7 +28585,7 @@
       "index2": 542,
       "size": 1960,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28613,7 +28635,7 @@
       "index2": 549,
       "size": 760,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28645,7 +28667,7 @@
       "index2": 548,
       "size": 1339,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28677,7 +28699,7 @@
       "index2": 547,
       "size": 1482,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28727,7 +28749,7 @@
       "index2": 546,
       "size": 959,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28858,7 +28880,7 @@
       "index2": 552,
       "size": 772,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28890,7 +28912,7 @@
       "index2": 551,
       "size": 1342,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28922,7 +28944,7 @@
       "index2": 550,
       "size": 1491,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28970,9 +28992,9 @@
       "name": "./components/Posts/index.js",
       "index": 556,
       "index2": 697,
-      "size": 5671,
+      "size": 5673,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28994,7 +29016,7 @@
           "loc": "25:13-42"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _index = require('/Users/vslio/Development/the-dots-demo/node_modules/redbox-react/lib/index.js');\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _index3 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-catch-errors/lib/index.js');\n\nvar _index4 = _interopRequireDefault(_index3);\n\nvar _react2 = require('react');\n\nvar _react3 = _interopRequireDefault(_react2);\n\nvar _index5 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-hmr/lib/index.js');\n\nvar _index6 = _interopRequireDefault(_index5);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _reactRedux = require('react-redux');\n\nvar _PostsActions = require('../../actions/PostsActions');\n\nvar _Post = require('../Post');\n\nvar _Post2 = _interopRequireDefault(_Post);\n\nvar _posts = require('./posts.css');\n\nvar _posts2 = _interopRequireDefault(_posts);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar _components = {\n  Posts: {\n    displayName: 'Posts'\n  }\n};\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/index.js',\n  components: _components,\n  locals: [module],\n  imports: [_react3.default]\n});\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/index.js',\n  components: _components,\n  locals: [],\n  imports: [_react3.default, _index2.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2(_UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);\n  };\n} /**\n   * Posts component, rendered @ `/posts`\n   */\n\n\nvar Posts = _wrapComponent('Posts')(function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts() {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, Object.getPrototypeOf(Posts).apply(this, arguments));\n  }\n\n  _createClass(Posts, [{\n    key: 'componentWillMount',\n    value: function componentWillMount() {\n      var dispatch = this.props.dispatch;\n\n\n      dispatch((0, _PostsActions.fetchPosts)());\n    }\n\n    /**\n     * Method to construct the <Posts> element which\n     * is composed of multiple <Post> elements. I opted\n     * to abstract this method, in order to unclutter the\n     * `render` method below.\n     */\n\n  }, {\n    key: 'constructPosts',\n    value: function constructPosts() {\n      return this.props.posts.items.map(function (post) {\n        return _react3.default.createElement(_Post2.default, {\n          key: post.id,\n          id: post.id,\n          author: post.author,\n          title: post.title,\n          text: post.text\n        });\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var posts = this.constructPosts();\n\n      console.log('the posts are rendered', posts);\n\n      return _react3.default.createElement(\n        'div',\n        null,\n        _react3.default.createElement(\n          'header',\n          null,\n          _react3.default.createElement(\n            'h3',\n            { className: _posts2.default.heading },\n            'Posts'\n          ),\n          _react3.default.createElement(\n            'span',\n            { className: _posts2.default.description },\n            'Blog posts from our members.'\n          )\n        ),\n        _react3.default.createElement(\n          'div',\n          null,\n          posts\n        )\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react2.Component));\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    posts: state.posts\n  };\n};\n\n/**\n * Essential method to bridge React and Redux.\n *\n * `connect` allows the component to subscribe to Redux store\n * updates, effectively triggering re-renders when there are\n * changes. Additionally, it injects the `dispatch` method\n * used in `componentDidMount()`\n */\nPosts = (0, _reactRedux.connect)(mapStateToProps)(Posts);\n\nexports.default = Posts;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _index = require('/Users/vslio/Development/the-dots-demo/node_modules/redbox-react/lib/index.js');\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _index3 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-catch-errors/lib/index.js');\n\nvar _index4 = _interopRequireDefault(_index3);\n\nvar _react2 = require('react');\n\nvar _react3 = _interopRequireDefault(_react2);\n\nvar _index5 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-hmr/lib/index.js');\n\nvar _index6 = _interopRequireDefault(_index5);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _reactRedux = require('react-redux');\n\nvar _PostsActions = require('actions/PostsActions');\n\nvar _Post = require('components/Post');\n\nvar _Post2 = _interopRequireDefault(_Post);\n\nvar _posts = require('./posts.css');\n\nvar _posts2 = _interopRequireDefault(_posts);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar _components = {\n  Posts: {\n    displayName: 'Posts'\n  }\n};\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/index.js',\n  components: _components,\n  locals: [module],\n  imports: [_react3.default]\n});\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/index.js',\n  components: _components,\n  locals: [],\n  imports: [_react3.default, _index2.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2(_UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);\n  };\n} /**\n   * Posts component, rendered @ `/posts`\n   */\n\n\nvar Posts = _wrapComponent('Posts')(function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts() {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, Object.getPrototypeOf(Posts).apply(this, arguments));\n  }\n\n  _createClass(Posts, [{\n    key: 'componentWillMount',\n    value: function componentWillMount() {\n      var dispatch = this.props.dispatch;\n\n\n      dispatch((0, _PostsActions.fetchPosts)());\n    }\n\n    /**\n     * Method to construct the <Posts> element which\n     * is composed of multiple <Post> elements. I opted\n     * to abstract this method, in order to unclutter the\n     * `render` method below.\n     */\n\n  }, {\n    key: 'constructPosts',\n    value: function constructPosts() {\n      return this.props.posts.items.map(function (post) {\n        return _react3.default.createElement(_Post2.default, {\n          key: post.id,\n          id: post.id,\n          author: post.author,\n          title: post.title,\n          text: post.text\n        });\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var posts = this.constructPosts();\n\n      console.log('the posts are rendered', posts);\n\n      return _react3.default.createElement(\n        'div',\n        null,\n        _react3.default.createElement(\n          'header',\n          null,\n          _react3.default.createElement(\n            'h3',\n            { className: _posts2.default.heading },\n            'Posts'\n          ),\n          _react3.default.createElement(\n            'span',\n            { className: _posts2.default.description },\n            'Blog posts from our members.'\n          )\n        ),\n        _react3.default.createElement(\n          'div',\n          null,\n          posts\n        )\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react2.Component));\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    posts: state.posts\n  };\n};\n\n/**\n * Essential method to bridge React and Redux.\n *\n * `connect` allows the component to subscribe to Redux store\n * updates, effectively triggering re-renders when there are\n * changes. Additionally, it injects the `dispatch` method\n * used in `componentDidMount()`\n */\nPosts = (0, _reactRedux.connect)(mapStateToProps)(Posts);\n\nexports.default = Posts;"
     },
     {
       "id": 557,
@@ -29004,7 +29026,7 @@
       "index2": 558,
       "size": 8251,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29045,7 +29067,7 @@
       "index2": 553,
       "size": 2278,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29077,7 +29099,7 @@
       "index2": 555,
       "size": 8177,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29109,7 +29131,7 @@
       "index2": 554,
       "size": 3484,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29141,7 +29163,7 @@
       "index2": 556,
       "size": 896,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29173,7 +29195,7 @@
       "index2": 557,
       "size": 4660,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29205,7 +29227,7 @@
       "index2": 559,
       "size": 2678,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29246,7 +29268,7 @@
       "index2": 686,
       "size": 3689,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29287,7 +29309,7 @@
       "index2": 684,
       "size": 1064,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29319,7 +29341,7 @@
       "index2": 560,
       "size": 275,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29360,7 +29382,7 @@
       "index2": 682,
       "size": 8092,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29392,7 +29414,7 @@
       "index2": 656,
       "size": 1612,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29424,7 +29446,7 @@
       "index2": 583,
       "size": 455,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29456,7 +29478,7 @@
       "index2": 581,
       "size": 456,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29488,7 +29510,7 @@
       "index2": 562,
       "size": 609,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29520,7 +29542,7 @@
       "index2": 561,
       "size": 633,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29552,7 +29574,7 @@
       "index2": 580,
       "size": 1374,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29611,7 +29633,7 @@
       "index2": 563,
       "size": 890,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29652,7 +29674,7 @@
       "index2": 564,
       "size": 475,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29684,7 +29706,7 @@
       "index2": 577,
       "size": 722,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29716,7 +29738,7 @@
       "index2": 565,
       "size": 504,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29748,7 +29770,7 @@
       "index2": 574,
       "size": 1272,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29798,7 +29820,7 @@
       "index2": 573,
       "size": 722,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29848,7 +29870,7 @@
       "index2": 571,
       "size": 859,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29916,7 +29938,7 @@
       "index2": 567,
       "size": 441,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29948,7 +29970,7 @@
       "index2": 566,
       "size": 351,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29989,7 +30011,7 @@
       "index2": 569,
       "size": 1153,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30039,14 +30061,14 @@
       "index2": 568,
       "size": 656,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/isFunction.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_baseIsEqual.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -30107,7 +30129,7 @@
       "index2": 570,
       "size": 785,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30166,7 +30188,7 @@
       "index2": 572,
       "size": 592,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30243,7 +30265,7 @@
       "index2": 575,
       "size": 504,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30347,7 +30369,7 @@
       "index2": 576,
       "size": 946,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30388,7 +30410,7 @@
       "index2": 578,
       "size": 707,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30438,7 +30460,7 @@
       "index2": 579,
       "size": 480,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30479,7 +30501,7 @@
       "index2": 582,
       "size": 886,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30511,7 +30533,7 @@
       "index2": 584,
       "size": 865,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30543,7 +30565,7 @@
       "index2": 585,
       "size": 690,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30575,7 +30597,7 @@
       "index2": 655,
       "size": 749,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30607,7 +30629,7 @@
       "index2": 637,
       "size": 822,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30639,7 +30661,7 @@
       "index2": 631,
       "size": 1757,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30671,7 +30693,7 @@
       "index2": 616,
       "size": 792,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30712,7 +30734,7 @@
       "index2": 586,
       "size": 210,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30744,7 +30766,7 @@
       "index2": 590,
       "size": 467,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30776,14 +30798,14 @@
       "index2": 589,
       "size": 746,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_mapDelete.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_stackDelete.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -30817,7 +30839,7 @@
       "index2": 588,
       "size": 509,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30876,7 +30898,7 @@
       "index2": 587,
       "size": 796,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30926,7 +30948,7 @@
       "index2": 592,
       "size": 392,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30958,14 +30980,14 @@
       "index2": 591,
       "size": 407,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_mapGet.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_stackGet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -30999,7 +31021,7 @@
       "index2": 594,
       "size": 444,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31031,14 +31053,14 @@
       "index2": 593,
       "size": 410,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_mapHas.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_stackHas.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -31072,7 +31094,7 @@
       "index2": 615,
       "size": 784,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31104,7 +31126,7 @@
       "index2": 614,
       "size": 778,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31145,7 +31167,7 @@
       "index2": 603,
       "size": 321,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31177,7 +31199,7 @@
       "index2": 599,
       "size": 414,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31209,7 +31231,7 @@
       "index2": 598,
       "size": 187,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31268,7 +31290,7 @@
       "index2": 597,
       "size": 421,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31327,7 +31349,7 @@
       "index2": 596,
       "size": 1520,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31359,7 +31381,7 @@
       "index2": 595,
       "size": 552,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31400,14 +31422,14 @@
       "index2": 602,
       "size": 195,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_mapClear.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_getTag.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -31477,14 +31499,14 @@
       "index2": 601,
       "size": 1309,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_Map.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_Symbol.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -31545,7 +31567,7 @@
       "index2": 600,
       "size": 307,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31577,7 +31599,7 @@
       "index2": 607,
       "size": 657,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31609,7 +31631,7 @@
       "index2": 605,
       "size": 397,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31641,7 +31663,7 @@
       "index2": 604,
       "size": 614,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31682,7 +31704,7 @@
       "index2": 606,
       "size": 402,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31759,7 +31781,7 @@
       "index2": 609,
       "size": 573,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31791,7 +31813,7 @@
       "index2": 608,
       "size": 762,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31823,7 +31845,7 @@
       "index2": 610,
       "size": 625,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31855,7 +31877,7 @@
       "index2": 613,
       "size": 681,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31887,14 +31909,14 @@
       "index2": 611,
       "size": 456,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_mapSet.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/react-proxy/node_modules/lodash/_stackSet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -31928,7 +31950,7 @@
       "index2": 612,
       "size": 488,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31960,7 +31982,7 @@
       "index2": 630,
       "size": 1131,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32001,7 +32023,7 @@
       "index2": 629,
       "size": 2918,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32033,7 +32055,7 @@
       "index2": 618,
       "size": 2298,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32074,7 +32096,7 @@
       "index2": 617,
       "size": 568,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32106,7 +32128,7 @@
       "index2": 623,
       "size": 3501,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32138,7 +32160,7 @@
       "index2": 619,
       "size": 118,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32179,7 +32201,7 @@
       "index2": 620,
       "size": 130,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32211,7 +32233,7 @@
       "index2": 621,
       "size": 352,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32243,7 +32265,7 @@
       "index2": 622,
       "size": 340,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32275,7 +32297,7 @@
       "index2": 624,
       "size": 2663,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32307,7 +32329,7 @@
       "index2": 627,
       "size": 1771,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32339,7 +32361,7 @@
       "index2": 625,
       "size": 195,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32371,7 +32393,7 @@
       "index2": 626,
       "size": 207,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32403,7 +32425,7 @@
       "index2": 628,
       "size": 2491,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32435,7 +32457,7 @@
       "index2": 636,
       "size": 523,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32467,7 +32489,7 @@
       "index2": 632,
       "size": 414,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32499,7 +32521,7 @@
       "index2": 635,
       "size": 645,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32531,7 +32553,7 @@
       "index2": 634,
       "size": 550,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32563,7 +32585,7 @@
       "index2": 633,
       "size": 534,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32604,7 +32626,7 @@
       "index2": 651,
       "size": 825,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32636,7 +32658,7 @@
       "index2": 644,
       "size": 868,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32677,7 +32699,7 @@
       "index2": 643,
       "size": 649,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32718,7 +32740,7 @@
       "index2": 641,
       "size": 377,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32759,7 +32781,7 @@
       "index2": 640,
       "size": 712,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32791,7 +32813,7 @@
       "index2": 639,
       "size": 1175,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32823,7 +32845,7 @@
       "index2": 638,
       "size": 905,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32855,7 +32877,7 @@
       "index2": 642,
       "size": 721,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32905,7 +32927,7 @@
       "index2": 650,
       "size": 745,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32937,7 +32959,7 @@
       "index2": 645,
       "size": 354,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32969,7 +32991,7 @@
       "index2": 649,
       "size": 1186,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33001,7 +33023,7 @@
       "index2": 646,
       "size": 377,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33033,7 +33055,7 @@
       "index2": 648,
       "size": 424,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33065,7 +33087,7 @@
       "index2": 647,
       "size": 756,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33097,7 +33119,7 @@
       "index2": 652,
       "size": 349,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33129,7 +33151,7 @@
       "index2": 654,
       "size": 755,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33161,7 +33183,7 @@
       "index2": 653,
       "size": 382,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33193,7 +33215,7 @@
       "index2": 679,
       "size": 5717,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33225,7 +33247,7 @@
       "index2": 666,
       "size": 1804,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33257,7 +33279,7 @@
       "index2": 657,
       "size": 830,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33298,7 +33320,7 @@
       "index2": 659,
       "size": 464,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33330,7 +33352,7 @@
       "index2": 658,
       "size": 875,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33362,7 +33384,7 @@
       "index2": 665,
       "size": 1004,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33394,7 +33416,7 @@
       "index2": 660,
       "size": 862,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33426,7 +33448,7 @@
       "index2": 664,
       "size": 1920,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33467,7 +33489,7 @@
       "index2": 661,
       "size": 736,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33499,7 +33521,7 @@
       "index2": 663,
       "size": 1031,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33531,7 +33553,7 @@
       "index2": 662,
       "size": 1442,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33563,7 +33585,7 @@
       "index2": 678,
       "size": 942,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33595,7 +33617,7 @@
       "index2": 675,
       "size": 1856,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33627,7 +33649,7 @@
       "index2": 668,
       "size": 514,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33659,7 +33681,7 @@
       "index2": 667,
       "size": 575,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33691,7 +33713,7 @@
       "index2": 671,
       "size": 480,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33723,7 +33745,7 @@
       "index2": 670,
       "size": 677,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33755,7 +33777,7 @@
       "index2": 669,
       "size": 657,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33787,7 +33809,7 @@
       "index2": 672,
       "size": 592,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33819,7 +33841,7 @@
       "index2": 673,
       "size": 333,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33851,7 +33873,7 @@
       "index2": 674,
       "size": 658,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33883,7 +33905,7 @@
       "index2": 677,
       "size": 1205,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33915,7 +33937,7 @@
       "index2": 676,
       "size": 437,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33947,7 +33969,7 @@
       "index2": 680,
       "size": 3030,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33979,7 +34001,7 @@
       "index2": 681,
       "size": 2635,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34011,7 +34033,7 @@
       "index2": 683,
       "size": 1294,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34043,7 +34065,7 @@
       "index2": 685,
       "size": 243,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34075,14 +34097,14 @@
       "index2": 690,
       "size": 2505,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
       "assets": [],
-      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-loader/index.js?{\"presets\":[\"react-hmre\"]}!/Users/vslio/Development/the-dots-demo/src/shared/reducers/PostsReducer.js",
+      "issuer": "/Users/vslio/Development/the-dots-demo/node_modules/babel-loader/index.js?{\"presets\":[\"react-hmre\"]}!/Users/vslio/Development/the-dots-demo/src/shared/components/Posts/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -34093,8 +34115,8 @@
           "module": "./components/Posts/index.js",
           "moduleName": "./components/Posts/index.js",
           "type": "cjs require",
-          "userRequest": "../../actions/PostsActions",
-          "loc": "27:20-57"
+          "userRequest": "actions/PostsActions",
+          "loc": "27:20-51"
         },
         {
           "moduleId": 701,
@@ -34102,8 +34124,8 @@
           "module": "./components/SinglePost/index.js",
           "moduleName": "./components/SinglePost/index.js",
           "type": "cjs require",
-          "userRequest": "../../actions/PostsActions",
-          "loc": "29:20-57"
+          "userRequest": "actions/PostsActions",
+          "loc": "29:20-51"
         },
         {
           "moduleId": 708,
@@ -34125,7 +34147,7 @@
       "index2": 689,
       "size": 601,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34166,7 +34188,7 @@
       "index2": 688,
       "size": 233,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34206,7 +34228,7 @@
       "index2": 687,
       "size": 10273,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34238,7 +34260,7 @@
       "index2": 694,
       "size": 1370,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34256,8 +34278,8 @@
           "module": "./components/Posts/index.js",
           "moduleName": "./components/Posts/index.js",
           "type": "cjs require",
-          "userRequest": "../Post",
-          "loc": "29:12-30"
+          "userRequest": "components/Post",
+          "loc": "29:12-38"
         }
       ],
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouter = require('react-router');\n\nvar _post = require('./post.css');\n\nvar _post2 = _interopRequireDefault(_post);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Post = function Post(_ref) {\n  var id = _ref.id;\n  var author = _ref.author;\n  var title = _ref.title;\n  var text = _ref.text;\n  return _react2.default.createElement(\n    'div',\n    { className: _post2.default.post },\n    _react2.default.createElement(\n      'h5',\n      { className: _post2.default.title },\n      _react2.default.createElement(\n        _reactRouter.Link,\n        {\n          to: '/post/' + id,\n          className: _post2.default.link,\n          activeClassName: _post2.default.active,\n          onlyActiveOnIndex: true },\n        title\n      )\n    ),\n    _react2.default.createElement(\n      'em',\n      { className: _post2.default.author },\n      ' by ',\n      author\n    ),\n    _react2.default.createElement(\n      'p',\n      { className: _post2.default.text },\n      text\n    )\n  );\n}; /**\n    * Post component\n    * @description Used in `Posts` component to render each\n    *              post, after a response from the server.\n    */\n\n\nexports.default = Post;"
@@ -34270,7 +34292,7 @@
       "index2": 693,
       "size": 1339,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34302,7 +34324,7 @@
       "index2": 692,
       "size": 3695,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34352,7 +34374,7 @@
       "index2": 691,
       "size": 1393,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34447,7 +34469,7 @@
       "index2": 696,
       "size": 1342,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34479,7 +34501,7 @@
       "index2": 695,
       "size": 1491,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34527,9 +34549,9 @@
       "name": "./components/SinglePost/index.js",
       "index": 701,
       "index2": 700,
-      "size": 5515,
+      "size": 5509,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34551,7 +34573,7 @@
           "loc": "29:18-52"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _index = require('/Users/vslio/Development/the-dots-demo/node_modules/redbox-react/lib/index.js');\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _index3 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-catch-errors/lib/index.js');\n\nvar _index4 = _interopRequireDefault(_index3);\n\nvar _react2 = require('react');\n\nvar _react3 = _interopRequireDefault(_react2);\n\nvar _index5 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-hmr/lib/index.js');\n\nvar _index6 = _interopRequireDefault(_index5);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _PostsActions = require('../../actions/PostsActions');\n\nvar _singlePost = require('./singlePost.css');\n\nvar _singlePost2 = _interopRequireDefault(_singlePost);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar _components = {\n  SinglePost: {\n    displayName: 'SinglePost'\n  }\n};\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/SinglePost/index.js',\n  components: _components,\n  locals: [module],\n  imports: [_react3.default]\n});\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/SinglePost/index.js',\n  components: _components,\n  locals: [],\n  imports: [_react3.default, _index2.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2(_UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);\n  };\n} /**\n   * SinglePost component, rendered @ `/post/:id`\n   *\n   * @description Displays a single post\n   */\n\n\nvar SinglePost = _wrapComponent('SinglePost')(function (_Component) {\n  _inherits(SinglePost, _Component);\n\n  function SinglePost() {\n    _classCallCheck(this, SinglePost);\n\n    return _possibleConstructorReturn(this, Object.getPrototypeOf(SinglePost).apply(this, arguments));\n  }\n\n  _createClass(SinglePost, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var dispatch = this.props.dispatch;\n\n      // Trigger a fetch to the server when the component is rendered\n\n      dispatch((0, _PostsActions.fetchPost)(this.props.routeParams.id));\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react3.default.createElement(\n        'div',\n        null,\n        _react3.default.createElement(\n          'header',\n          { className: _singlePost2.default.header },\n          _react3.default.createElement(\n            'h3',\n            { className: _singlePost2.default.title },\n            this.props.post.title\n          ),\n          _react3.default.createElement(\n            'em',\n            { className: _singlePost2.default.author },\n            'by ',\n            this.props.post.author\n          ),\n          _react3.default.createElement(\n            _reactRouter.Link,\n            { to: '/posts', className: _singlePost2.default.close },\n            '← BACK TO POSTS'\n          )\n        ),\n        _react3.default.createElement(\n          'p',\n          { className: _singlePost2.default.text },\n          this.props.post.text\n        )\n      );\n    }\n  }]);\n\n  return SinglePost;\n}(_react2.Component));\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    post: state.posts.post\n  };\n};\n\n/**\n * Essential method to bridge React and Redux.\n *\n * `connect` allows the component to subscribe to Redux store\n * updates, effectively triggering re-renders when there are\n * changes. Additionally, it injects the `dispatch` method\n * used in `componentDidMount()`\n */\nSinglePost = (0, _reactRedux.connect)(mapStateToProps)(SinglePost);\n\nexports.default = SinglePost;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _index = require('/Users/vslio/Development/the-dots-demo/node_modules/redbox-react/lib/index.js');\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _index3 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-catch-errors/lib/index.js');\n\nvar _index4 = _interopRequireDefault(_index3);\n\nvar _react2 = require('react');\n\nvar _react3 = _interopRequireDefault(_react2);\n\nvar _index5 = require('/Users/vslio/Development/the-dots-demo/node_modules/react-transform-hmr/lib/index.js');\n\nvar _index6 = _interopRequireDefault(_index5);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _PostsActions = require('actions/PostsActions');\n\nvar _singlePost = require('./singlePost.css');\n\nvar _singlePost2 = _interopRequireDefault(_singlePost);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar _components = {\n  SinglePost: {\n    displayName: 'SinglePost'\n  }\n};\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2 = (0, _index6.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/SinglePost/index.js',\n  components: _components,\n  locals: [module],\n  imports: [_react3.default]\n});\n\nvar _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2 = (0, _index4.default)({\n  filename: '/Users/vslio/Development/the-dots-demo/src/shared/components/SinglePost/index.js',\n  components: _components,\n  locals: [],\n  imports: [_react3.default, _index2.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformHmrLibIndexJs2(_UsersVslioDevelopmentTheDotsDemoNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);\n  };\n} /**\n   * SinglePost component, rendered @ `/post/:id`\n   *\n   * @description Displays a single post\n   */\n\n\nvar SinglePost = _wrapComponent('SinglePost')(function (_Component) {\n  _inherits(SinglePost, _Component);\n\n  function SinglePost() {\n    _classCallCheck(this, SinglePost);\n\n    return _possibleConstructorReturn(this, Object.getPrototypeOf(SinglePost).apply(this, arguments));\n  }\n\n  _createClass(SinglePost, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var dispatch = this.props.dispatch;\n\n      // Trigger a fetch to the server when the component is rendered\n\n      dispatch((0, _PostsActions.fetchPost)(this.props.routeParams.id));\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react3.default.createElement(\n        'div',\n        null,\n        _react3.default.createElement(\n          'header',\n          { className: _singlePost2.default.header },\n          _react3.default.createElement(\n            'h3',\n            { className: _singlePost2.default.title },\n            this.props.post.title\n          ),\n          _react3.default.createElement(\n            'em',\n            { className: _singlePost2.default.author },\n            'by ',\n            this.props.post.author\n          ),\n          _react3.default.createElement(\n            _reactRouter.Link,\n            { to: '/posts', className: _singlePost2.default.close },\n            '← BACK TO POSTS'\n          )\n        ),\n        _react3.default.createElement(\n          'p',\n          { className: _singlePost2.default.text },\n          this.props.post.text\n        )\n      );\n    }\n  }]);\n\n  return SinglePost;\n}(_react2.Component));\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    post: state.posts.post\n  };\n};\n\n/**\n * Essential method to bridge React and Redux.\n *\n * `connect` allows the component to subscribe to Redux store\n * updates, effectively triggering re-renders when there are\n * changes. Additionally, it injects the `dispatch` method\n * used in `componentDidMount()`\n */\nSinglePost = (0, _reactRedux.connect)(mapStateToProps)(SinglePost);\n\nexports.default = SinglePost;"
     },
     {
       "id": 702,
@@ -34561,7 +34583,7 @@
       "index2": 699,
       "size": 1357,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34593,7 +34615,7 @@
       "index2": 698,
       "size": 3665,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34643,7 +34665,7 @@
       "index2": 703,
       "size": 1710,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34675,7 +34697,7 @@
       "index2": 702,
       "size": 1342,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34707,7 +34729,7 @@
       "index2": 701,
       "size": 3166,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34757,7 +34779,7 @@
       "index2": 708,
       "size": 570,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34794,7 +34816,7 @@
           "moduleName": "./store/index.js",
           "type": "module.hot.accept",
           "userRequest": "reducers",
-          "loc": "28:4-32:6"
+          "loc": "30:4-34:6"
         },
         {
           "moduleId": 711,
@@ -34803,7 +34825,7 @@
           "moduleName": "./store/index.js",
           "type": "cjs require",
           "userRequest": "reducers",
-          "loc": "29:28-47"
+          "loc": "31:28-47"
         }
       ],
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _redux = require('redux');\n\nvar _PostsReducer = require('./PostsReducer');\n\nvar _PostsReducer2 = _interopRequireDefault(_PostsReducer);\n\nvar _NotesReducer = require('./NotesReducer');\n\nvar _NotesReducer2 = _interopRequireDefault(_NotesReducer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar reducers = (0, _redux.combineReducers)({\n  posts: _PostsReducer2.default,\n  notes: _NotesReducer2.default\n});\n\nexports.default = reducers;"
@@ -34816,7 +34838,7 @@
       "index2": 705,
       "size": 1055,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34848,7 +34870,7 @@
       "index2": 707,
       "size": 878,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34880,7 +34902,7 @@
       "index2": 706,
       "size": 1363,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34910,7 +34932,7 @@
       "name": "./store/index.js",
       "index": 711,
       "index2": 711,
-      "size": 994,
+      "size": 1105,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34934,7 +34956,7 @@
           "loc": "25:13-29"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _redux = require('redux');\n\nvar _reduxThunk = require('redux-thunk');\n\nvar _reduxThunk2 = _interopRequireDefault(_reduxThunk);\n\nvar _reduxLogger = require('redux-logger');\n\nvar _reduxLogger2 = _interopRequireDefault(_reduxLogger);\n\nvar _reducers = require('reducers');\n\nvar _reducers2 = _interopRequireDefault(_reducers);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction configureStore(initialState) {\n  var store = (0, _redux.createStore)(_reducers2.default, initialState, (0, _redux.applyMiddleware)(_reduxThunk2.default, (0, _reduxLogger2.default)()));\n\n  if (module.hot) {\n    // Enable Webpack hot module replacement for reducers\n    module.hot.accept('reducers', function () {\n      var nextRootReducer = require('reducers').default;\n\n      store.replaceReducer(nextRootReducer);\n    });\n  }\n\n  return store;\n}\n\nexports.default = configureStore;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _redux = require('redux');\n\nvar _reduxThunk = require('redux-thunk');\n\nvar _reduxThunk2 = _interopRequireDefault(_reduxThunk);\n\nvar _reduxLogger = require('redux-logger');\n\nvar _reduxLogger2 = _interopRequireDefault(_reduxLogger);\n\nvar _reducers = require('reducers');\n\nvar _reducers2 = _interopRequireDefault(_reducers);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction configureStore(initialState) {\n  var store = (0, _redux.createStore)(_reducers2.default, initialState, (0, _redux.compose)((0, _redux.applyMiddleware)(_reduxThunk2.default, (0, _reduxLogger2.default)()), window.devToolsExtension ? window.devToolsExtension() : function (f) {\n    return f;\n  }));\n\n  if (module.hot) {\n    // Enable Webpack hot module replacement for reducers\n    module.hot.accept('reducers', function () {\n      var nextRootReducer = require('reducers').default;\n\n      store.replaceReducer(nextRootReducer);\n    });\n  }\n\n  return store;\n}\n\nexports.default = configureStore;"
     },
     {
       "id": 712,
@@ -34944,7 +34966,7 @@
       "index2": 709,
       "size": 370,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34984,7 +35006,7 @@
       "index2": 710,
       "size": 8491,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
