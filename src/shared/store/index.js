@@ -1,6 +1,6 @@
 import { compose, createStore, applyMiddleware } from 'redux'
-import promiseMiddleware from 'lib/promiseMiddleware';
-import reducers from 'reducers';
+import promiseMiddleware from 'lib/promiseMiddleware'
+import reducers from 'reducers'
 
 function configureStore(initialState) {
   const store = createStore(
