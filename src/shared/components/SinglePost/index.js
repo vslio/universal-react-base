@@ -6,16 +6,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
-import { fetchPost } from 'actions/PostsActions'
+import * as PostsActions from 'actions/PostsActions'
 import style from './singlePost.css'
 
 class SinglePost extends Component {
-  componentDidMount() {
-    const { dispatch } = this.props
-
-    // Trigger a fetch to the server when the component is rendered
-    dispatch(fetchPost(this.props.routeParams.id))
-  }
+  static needs = [
+    PostsActions.getPost
+  ]
 
   render() {
     return (

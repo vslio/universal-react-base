@@ -1,6 +1,7 @@
 'use strict'
 
 require('babel-core/register')({})
+require('babel-polyfill')
 
 var path = require('path')
 var isDevelopment = (process.env.NODE_ENV !== 'production')

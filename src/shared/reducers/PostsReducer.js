@@ -1,7 +1,4 @@
-import {
-  REQUEST_POSTS, RECEIVE_POSTS,
-  REQUEST_POST, RECEIVE_POST
-} from '../actions/PostsActions'
+import { GET_POSTS, GET_POST } from 'actions/PostsActions'
 
 const initialState = {
   items: [],
@@ -13,16 +10,12 @@ const initialState = {
  */
 function postsReducer(state = initialState, action) {
   switch (action.type) {
-    case REQUEST_POSTS:
-      return state
-    case RECEIVE_POSTS:
+    case GET_POSTS:
       return {
         ...state,
         items: action.posts
       }
-    case REQUEST_POST:
-      return state
-    case RECEIVE_POST:
+    case GET_POST:
       return {
         ...state,
         post: action.post

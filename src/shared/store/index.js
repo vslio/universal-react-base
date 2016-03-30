@@ -1,6 +1,5 @@
 import { compose, createStore, applyMiddleware } from 'redux'
-import thunkMiddleware from 'redux-thunk'
-import createLogger from 'redux-logger'
+import promiseMiddleware from 'lib/promiseMiddleware';
 import reducers from 'reducers';
 
 function configureStore(initialState) {
@@ -8,7 +7,7 @@ function configureStore(initialState) {
     reducers,
     initialState,
     compose(
-      applyMiddleware(thunkMiddleware, createLogger()),
+      applyMiddleware(promiseMiddleware),
       ((typeof window === 'object') && (typeof window.devToolsExtension !== 'undefined'))
         ? window.devToolsExtension()
         : f => f

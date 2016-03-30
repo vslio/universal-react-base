@@ -3,8 +3,10 @@ import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
-import { match, RouterContext, createMemoryHistory } from 'react-router'
+import { match, RouterContext } from 'react-router'
 import createLocation from 'history/lib/createLocation'
+import promiseMiddleware from 'lib/promiseMiddleware';
+import fetchComponentData from 'lib/fetchComponentData';
 import routes from 'routes'
 import configureStore from 'store'
 
@@ -28,7 +30,6 @@ server.use((request, response) => {
   const assets = global.webpackIsomorphicTools.assets()
   const location = createLocation(request.url)
   const store = configureStore()
-  const history = createMemoryHistory()
 
   match({ routes, location }, (err, redirectLocation, renderProps) => {
     if (err) {
@@ -64,11 +65,9 @@ server.use((request, response) => {
       })
     }
 
-    renderView()
-
-    // fetchComponentData(store.dispatch, renderProps.components, renderProps.params)
-    //   .then(renderView)
-    //   .catch(err => response.end(err.message));
+    fetchComponentData(store.dispatch, renderProps.components, renderProps.params)
+      .then(renderView())
+      .catch(err => response.end(err.message))
   })
 })
 
