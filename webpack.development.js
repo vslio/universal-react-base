@@ -8,13 +8,13 @@ import WebpackIsomorphicTools from 'webpack-isomorphic-tools'
 import WebpackIsomorphicToolsPlugin from 'webpack-isomorphic-tools/plugin'
 import WebpackProductionConfig from './webpack.config.production.js'
 import WebpackIsomorphicToolsConfig from './webpack-isomorphic-tools'
-import cssnext from 'postcss-cssnext'
+import cssNext from 'postcss-cssnext'
 
 const webpackIsomorphicToolsPlugin = new WebpackIsomorphicToolsPlugin(WebpackIsomorphicToolsConfig)
 
 export default function(server) {
   const config = {
-    ...WebpackProductionConfig,
+    context: path.join(__dirname, '/src/shared'),
     devtool: 'inline-source-map',
     entry: {
       vendors: [
@@ -24,7 +24,6 @@ export default function(server) {
         'react-router',
         'redux',
         'react-redux',
-        'redux-thunk',
         'axios',
         'babel-polyfill'
       ],
@@ -33,9 +32,17 @@ export default function(server) {
         '../client'
       ]
     },
+    output: {
+      path: path.join(__dirname, '/dist'),
+      filename: '[name].bundle.js',
+      publicPath: '/dist/'
+    },
     module: {
       loaders: [
-        { test: /\.html$/, loader: 'file?name=[name].[ext]' },
+        {
+          test: /\.html$/,
+          loader: 'file?name=[name].[ext]'
+        },
         {
           test: /\.css$/,
           loaders: [
@@ -54,6 +61,13 @@ export default function(server) {
           include: path.join(__dirname, '/src')
         }
       ]
+    },
+    resolve: {
+      modulesDirectories: ['node_modules', 'shared'],
+      extensions: ['', '.js', '.jsx']
+    },
+    postcss: function() {
+      return [cssNext]
     },
     plugins: [
       new webpack.DefinePlugin({

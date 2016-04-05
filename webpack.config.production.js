@@ -14,7 +14,6 @@ module.exports = {
       'react-router',
       'redux',
       'react-redux',
-      'redux-thunk',
       'axios',
       'babel-polyfill'
     ],
