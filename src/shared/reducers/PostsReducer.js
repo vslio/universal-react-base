@@ -1,5 +1,3 @@
-import Immutable from 'immutable';
-
 const initialState = {
   items: [],
   post: {}
