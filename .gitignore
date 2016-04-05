@@ -1,2 +1,11 @@
+# OS specific
+.DS_Store
+
+# Node specific
 node_modules
 npm-debug.log
+
+# Project specific
+dist/
+webpack-assets.json
+webpack-stats.json
