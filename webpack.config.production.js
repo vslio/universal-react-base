@@ -4,7 +4,6 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
 var WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin')
 var webpackIsomorphicToolsPlugin = new WebpackIsomorphicToolsPlugin(webpackIsomorphicToolsConfig)
-var cssnext = require('postcss-cssnext')
 
 module.exports = {
   context: path.join(__dirname, '/src/shared'),
@@ -28,17 +27,15 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.html$/, loader: 'file?name=[name].[ext]' },
       {
-        test: webpackIsomorphicToolsPlugin.regular_expression('images'),
-        loader: 'url-loader?limit=10240'
+        test: /\.html$/,
+        loader: 'file?name=[name].[ext]'
       },
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract(
           'style-loader',
-          'css-loader?modules&localIdentName=[hash:base64:5]&importLoaders=1',
-          'postcss-loader'
+          'css-loader?modules&localIdentName=[hash:base64:5]&importLoaders=1!postcss-loader'
         )
       },
       {
@@ -53,9 +50,9 @@ module.exports = {
     modulesDirectories: ['node_modules', 'shared'],
     extensions: ['', '.js', '.jsx']
   },
-  postcss: function() {
-    return [cssnext]
-  },
+  postcss: [
+    require('postcss-cssnext')()
+  ],
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
