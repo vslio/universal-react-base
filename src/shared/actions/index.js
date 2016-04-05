@@ -8,4 +8,4 @@ export function apiPath(path) {
 }
 
 // Exposing `isomorphic-fetch` to all the actions
-export fetch from 'isomorphic-fetch'
+export request from 'axios'

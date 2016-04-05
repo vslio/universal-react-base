@@ -1,4 +1,4 @@
-import { GET_POSTS, GET_POST } from 'actions/PostsActions'
+import Immutable from 'immutable';
 
 const initialState = {
   items: [],
@@ -10,15 +10,15 @@ const initialState = {
  */
 function postsReducer(state = initialState, action) {
   switch (action.type) {
-    case GET_POSTS:
+    case 'GET_POSTS':
       return {
         ...state,
-        items: action.posts
+        items: action.res.data
       }
-    case GET_POST:
+    case 'GET_POST':
       return {
         ...state,
-        post: action.post
+        post: action.res.data
       }
     default:
       return state

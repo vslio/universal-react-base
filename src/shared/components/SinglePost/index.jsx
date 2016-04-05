@@ -14,6 +14,12 @@ class SinglePost extends Component {
     PostsActions.getPost
   ]
 
+  componentDidMount() {
+    this.props.dispatch(
+      PostsActions.getPost({ id: this.props.routeParams.id })
+    )
+  }
+
   render() {
     return (
       <div>
@@ -28,12 +34,6 @@ class SinglePost extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    post: state.posts.post
-  }
-}
-
 /**
  * Essential method to bridge React and Redux.
  *
@@ -42,6 +42,8 @@ const mapStateToProps = (state) => {
  * changes. Additionally, it injects the `dispatch` method
  * used in `componentDidMount()`
  */
-SinglePost = connect(mapStateToProps)(SinglePost)
+SinglePost = connect(
+  state => ({ post: state.posts.post })
+)(SinglePost)
 
 export default SinglePost

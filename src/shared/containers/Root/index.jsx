@@ -4,7 +4,6 @@
  *        For more information check the following URL:
  *        https://facebook.github.io/react/docs/reusable-components.html#stateless-functions
  */
-
 import React, { Component } from 'react'
 import style from './root.css'
 
@@ -17,13 +16,11 @@ const Root = (props) => (
       <h1 className={style.heading}>The Dots</h1>
       <Navigation />
     </header>
-    <div>
-      {/*
-        Rendering the child components,
-        depending on the current route
-      */}
-      {props.children}
-    </div>
+    {/*
+      Rendering the child components,
+      depending on the current route
+    */}
+    {props.children}
   </div>
 )
 

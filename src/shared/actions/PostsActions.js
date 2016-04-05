@@ -1,14 +1,7 @@
 /**
  * Notes actions
  */
-
-import { apiPath, fetch } from 'actions'
-
-/**
- * Action Types
- */
-export const GET_POSTS = 'GET_POSTS'
-export const GET_POST = 'GET_POST'
+import { apiPath, request } from 'actions'
 
 /**
  * Action Creators
@@ -19,10 +12,9 @@ export const GET_POST = 'GET_POST'
  * @return {Object} Action type
  */
 export function getPosts() {
-  console.log('requesting posts')
   return {
-    type: GET_POSTS,
-    promise: fetch(apiPath('/posts'))
+    type: 'GET_POSTS',
+    promise: request.get(apiPath('/posts'))
   }
 }
 
@@ -30,10 +22,9 @@ export function getPosts() {
  * Action triggered when there's a request for a single post
  * @return {Object} Action type
  */
-export function getPost(id) {
-  console.log('requesting single post')
+export function getPost(post) {
   return {
-    type: GET_POST,
-    promise: fetch(apiPath(`/posts/${id}`))
+    type: 'GET_POST',
+    promise: request.get(apiPath(`/posts/${post.id}`))
   }
 }

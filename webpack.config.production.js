@@ -16,7 +16,7 @@ module.exports = {
       'redux',
       'react-redux',
       'redux-thunk',
-      'isomorphic-fetch',
+      'axios',
       'babel-polyfill'
     ],
     app: ['../client']
@@ -42,7 +42,7 @@ module.exports = {
         )
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         loader: 'babel',
         exclude: /node_modules/,
         include: path.join(__dirname, '/src')

@@ -8,12 +8,11 @@ import reducers from 'reducers'
 import configureStore from 'store'
 
 const initialState = JSON.parse(window.__INITIAL_STATE__)
-const history = browserHistory
 const store = configureStore(initialState)
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router children={routes} history={history} />
+    <Router children={routes} history={browserHistory} />
   </Provider>,
   document.getElementById('root')
 )

@@ -25,7 +25,7 @@ export default function(server) {
         'redux',
         'react-redux',
         'redux-thunk',
-        'isomorphic-fetch',
+        'axios',
         'babel-polyfill'
       ],
       app: [
@@ -45,7 +45,7 @@ export default function(server) {
           ]
         },
         {
-          test: /\.js$/,
+          test: /\.jsx?$/,
           loader: 'babel',
           query: {
             presets: ['react-hmre']

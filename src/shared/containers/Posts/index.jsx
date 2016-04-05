@@ -1,7 +1,6 @@
 /**
  * Posts container
  */
-
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
@@ -13,6 +12,10 @@ class Posts extends Component {
   static needs = [
     PostsActions.getPosts
   ]
+
+  componentDidMount() {
+    this.props.dispatch(PostsActions.getPosts())
+  }
 
   render() {
     const { posts, dispatch } = this.props
@@ -32,12 +35,6 @@ class Posts extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    posts: state.posts
-  }
-}
-
 /**
  * Essential method to bridge React and Redux.
  *
@@ -46,6 +43,8 @@ const mapStateToProps = (state) => {
  * changes. Additionally, it injects the `dispatch` method
  * in `props`
  */
-Posts = connect(mapStateToProps)(Posts)
+Posts = connect(
+  state => ({ posts: state.posts })
+)(Posts)
 
 export default Posts

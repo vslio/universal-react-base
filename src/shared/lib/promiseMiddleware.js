@@ -1,3 +1,10 @@
+/**
+ * Redux middleware to handle action creators
+ * with or without Promises and fire additional
+ * `_REQUEST` and `_FAILURE` actions. It keeps
+ * our action creators simple and synchronous,
+ * too. Amazing.
+ */
 function promiseMiddleware() {
   return next => action => {
     const { promise, type, ...rest } = action

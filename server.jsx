@@ -2,13 +2,14 @@ import path from 'path'
 import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
+import { createStore, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import { match, RouterContext } from 'react-router'
 import createLocation from 'history/lib/createLocation'
-import promiseMiddleware from 'lib/promiseMiddleware';
-import fetchComponentData from 'lib/fetchComponentData';
+import promiseMiddleware from 'lib/promiseMiddleware'
+import fetchComponentData from 'lib/fetchComponentData'
 import routes from 'routes'
-import configureStore from 'store'
+import reducer from 'reducers'
 
 const server = express()
 const isDevelopment = (process.env.NODE_ENV !== 'production')
@@ -29,7 +30,7 @@ server.use((request, response) => {
 
   const assets = global.webpackIsomorphicTools.assets()
   const location = createLocation(request.url)
-  const store = configureStore()
+  const store = applyMiddleware(promiseMiddleware)(createStore)(reducer)
 
   match({ routes, location }, (err, redirectLocation, renderProps) => {
     if (err) {
@@ -49,9 +50,11 @@ server.use((request, response) => {
         </Provider>
       )
 
-      const stylesheetURL = assets.styles.app
-      const javascriptApp = assets.javascript.app
-      const javascriptVendors = assets.javascript.vendors
+      const stylesheet = assets.styles.app
+      const javascripts = {
+        app: assets.javascript.app,
+        vendors: assets.javascript.vendors
+      }
 
       const componentHTML = renderToString(InitialView)
       const initialState = JSON.stringify(store.getState())
@@ -59,15 +62,19 @@ server.use((request, response) => {
       response.render('index', {
         componentHTML,
         initialState,
-        stylesheetURL,
-        javascriptApp,
-        javascriptVendors
+        stylesheet,
+        javascripts
+      }, (err, html) => {
+        if (err) {
+          response.end(err.message)
+        } else {
+          response.end(html)
+        }
       })
     }
 
     fetchComponentData(store.dispatch, renderProps.components, renderProps.params)
-      .then(renderView())
-      .catch(err => response.end(err.message))
+      .then(res => renderView(res))
   })
 })
 
