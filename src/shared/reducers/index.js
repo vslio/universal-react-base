@@ -1,11 +1,9 @@
 import { combineReducers } from 'redux'
 
 import posts from './PostsReducer'
-import notes from './NotesReducer'
 
 const reducers = combineReducers({
-  posts,
-  notes
+  posts
 })
 
 export default reducers
