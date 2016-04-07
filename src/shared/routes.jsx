@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 
-import Root from './containers/Root'
-import Posts from './containers/Posts'
+import Root from './components/Root'
+import Posts from './components/Posts'
 import Home from './components/Home'
 import About from './components/About'
 import SinglePost from './components/SinglePost'

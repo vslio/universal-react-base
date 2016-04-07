@@ -21,11 +21,11 @@
 }
 
 .title {
-  composes: title from "../../styles/common/post.css";
+  composes: title from "../../../styles/common/post.css";
 }
 
 .author {
-  composes: author from "../../styles/common/post.css";
+  composes: author from "../../../styles/common/post.css";
   /* Decoration pseudo element that underlines the element on hover */
   &::before {
     position: absolute;
@@ -40,5 +40,5 @@
 }
 
 .text {
-  composes: text from "../../styles/common/post.css";
+  composes: text from "../../../styles/common/post.css";
 }

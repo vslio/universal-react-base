@@ -2,7 +2,7 @@
  * Posts component, rendered @ `/posts`
  */
 import React, { Component } from 'react'
-import Post from 'components/Post'
+import Post from './Post'
 
 class PostsList extends Component {
   render() {
