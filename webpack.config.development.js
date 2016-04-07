@@ -1,14 +1,16 @@
 var webpack = require('webpack')
 var path = require('path')
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
 var WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin')
-var webpackIsomorphicToolsPluginInstance = new WebpackIsomorphicToolsPlugin(webpackIsomorphicToolsConfig)
+var WebpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
+var webpackIsomorphicToolsPluginInstance = new WebpackIsomorphicToolsPlugin(WebpackIsomorphicToolsConfig)
+var cssNext = require('postcss-cssnext')
 
 module.exports = {
   context: path.join(__dirname, '/src/shared'),
+  devtool: 'cheap-module-eval-source-map',
   entry: {
     vendors: [
+      'webpack-hot-middleware/client',
       'react',
       'react-dom',
       'react-router',
@@ -17,7 +19,10 @@ module.exports = {
       'axios',
       'babel-polyfill'
     ],
-    app: ['../client']
+    app: [
+      'webpack-hot-middleware/client',
+      '../client'
+    ]
   },
   output: {
     path: path.join(__dirname, '/dist'),
@@ -32,14 +37,18 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
+        loaders: [
           'style-loader',
-          'css-loader?modules&localIdentName=[hash:base64:5]&importLoaders=1!postcss-loader'
-        )
+          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]',
+          'postcss-loader'
+        ]
       },
       {
         test: /\.jsx?$/,
         loader: 'babel',
+        query: {
+          presets: ['react-hmre']
+        },
         exclude: /node_modules/,
         include: path.join(__dirname, '/src')
       }
@@ -49,27 +58,21 @@ module.exports = {
     modulesDirectories: ['node_modules', 'shared'],
     extensions: ['', '.js', '.jsx']
   },
-  postcss: [
-    require('postcss-cssnext')()
-  ],
+  postcss: function() {
+    return [cssNext]
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify('production')
+        NODE_ENV: JSON.stringify('development')
       }
     }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendors',
       filename: 'vendors.bundle.js'
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: false,
-      compress: {
-        warnings: false,
-        screw_ie8: true
-      }
-    }),
-    new ExtractTextPlugin('[name]-[chunkhash].css', { allChunks: true }),
-    webpackIsomorphicToolsPluginInstance
+    webpackIsomorphicToolsPluginInstance.development()
   ]
 }
