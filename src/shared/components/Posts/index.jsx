@@ -4,8 +4,9 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+
 import style from './posts.css'
-import PostsList from 'components/PostsList'
+import PostsList from './PostsList'
 import * as PostsActions from 'actions/PostsActions'
 
 class Posts extends Component {

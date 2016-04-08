@@ -1,8 +1,9 @@
 /**
- * Posts component, rendered @ `/posts`
+ * PostsList component
+ * @description Renders a list of `Post`s
  */
 import React, { Component } from 'react'
-import Post from './Post'
+import Post from '../Post'
 
 class PostsList extends Component {
   render() {

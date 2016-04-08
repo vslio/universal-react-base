@@ -2,11 +2,11 @@
  * Login Component styles
  */
 .heading {
-  composes: heading from "../../styles/common/page.css";
+  composes: heading from "styles/modules/page.css";
 }
 
 .description {
-  composes: description from "../../styles/common/page.css";
+  composes: description from "styles/modules/page.css";
 }
 
 .label {

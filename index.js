@@ -7,7 +7,7 @@ var path = require('path')
 var isDevelopment = (process.env.NODE_ENV !== 'production')
 
 var WebpackIsomorphicTools = require('webpack-isomorphic-tools')
-var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
+var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools.config')
 
 var projectRoot = path.join(__dirname, '/src/shared')
 

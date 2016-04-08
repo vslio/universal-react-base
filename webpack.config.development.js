@@ -1,9 +1,12 @@
 var webpack = require('webpack')
 var path = require('path')
+
 var WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin')
-var WebpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
+var WebpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools.config')
 var webpackIsomorphicToolsPluginInstance = new WebpackIsomorphicToolsPlugin(WebpackIsomorphicToolsConfig)
-var cssNext = require('postcss-cssnext')
+
+var postcssImport = require('postcss-import')
+var postcssNext = require('postcss-cssnext')
 
 module.exports = {
   context: path.join(__dirname, '/src/shared'),
@@ -11,13 +14,13 @@ module.exports = {
   entry: {
     vendors: [
       'webpack-hot-middleware/client',
+      'axios',
+      'babel-polyfill',
       'react',
       'react-dom',
-      'react-router',
-      'redux',
       'react-redux',
-      'axios',
-      'babel-polyfill'
+      'react-router',
+      'redux'
     ],
     app: [
       'webpack-hot-middleware/client',
@@ -58,17 +61,23 @@ module.exports = {
     modulesDirectories: ['node_modules', 'shared'],
     extensions: ['', '.js', '.jsx']
   },
-  postcss: function() {
-    return [cssNext]
+  postcss: function(webpack) {
+    return [
+      postcssImport({
+        path: ['./'],
+        addDependencyTo: webpack
+      }),
+      postcssNext
+    ]
   },
   plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify('development')
       }
     }),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendors',
       filename: 'vendors.bundle.js'

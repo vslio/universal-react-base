@@ -1,6 +1,6 @@
 /**
  * Post component
- * @description Used in `Posts` component to render each
+ * @description Used in `PostsList` component to render each
  *              post, after a response from the server.
  */
 import React from 'react'

@@ -23,16 +23,12 @@
       "author": "Mark Jenkins",
       "title": "Fourth title",
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatibus esse atque, nulla quam architecto harum, cupiditate minima dolores corporis consequuntur doloribus fugiat debitis deserunt rerum at non ipsa a."
-    }
-  ],
-  "notes": [
-    {
-      "id": 1,
-      "text": "This is the first note."
     },
     {
-      "id": 2,
-      "text": "This is the second note."
+      "id": 5,
+      "author": "Simon Brown",
+      "title": "Fifth title",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque ex laboriosam quis praesentium voluptatibus eius maxime. Ab laudantium soluta praesentium distinctio optio tempore tenetur voluptatibus fugit dolorem! Nemo, voluptatum!"
     }
   ]
 }

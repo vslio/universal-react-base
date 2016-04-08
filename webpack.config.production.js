@@ -1,21 +1,25 @@
 var webpack = require('webpack')
 var path = require('path')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools')
+
+var webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools.config')
 var WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin')
 var webpackIsomorphicToolsPluginInstance = new WebpackIsomorphicToolsPlugin(webpackIsomorphicToolsConfig)
+
+var postcssImport = require('postcss-import')
+var postcssNext = require('postcss-cssnext')
 
 module.exports = {
   context: path.join(__dirname, '/src/shared'),
   entry: {
     vendors: [
+      'axios',
+      'babel-polyfill',
       'react',
       'react-dom',
-      'react-router',
-      'redux',
       'react-redux',
-      'axios',
-      'babel-polyfill'
+      'react-router',
+      'redux'
     ],
     app: ['../client']
   },
@@ -50,7 +54,10 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   postcss: [
-    require('postcss-cssnext')()
+    postcssImport({
+      path: ['./']
+    }),
+    postcssNext
   ],
   plugins: [
     new webpack.DefinePlugin({
@@ -69,7 +76,9 @@ module.exports = {
         screw_ie8: true
       }
     }),
-    new ExtractTextPlugin('[name]-[chunkhash].css', { allChunks: true }),
+    new ExtractTextPlugin('[name]-[chunkhash].css', {
+      allChunks: true
+    }),
     webpackIsomorphicToolsPluginInstance
   ]
 }
