@@ -4,12 +4,15 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-
 import style from './posts.css'
 import PostsList from './PostsList'
 import * as PostsActions from 'actions/PostsActions'
 
 class Posts extends Component {
+  // Action dispatched on the server-side, when
+  // we're on this route. This essentially triggers
+  // a call to the API and waits for the response
+  // before it gets rendered.
   static needs = [
     PostsActions.getPosts
   ]
@@ -44,8 +47,6 @@ class Posts extends Component {
  * changes. Additionally, it injects the `dispatch` method
  * in `props`
  */
-Posts = connect(
+export default connect(
   state => ({ posts: state.posts })
 )(Posts)
-
-export default Posts

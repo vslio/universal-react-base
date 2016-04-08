@@ -1,11 +1,12 @@
 {
-  "name": "the-dots-demo",
+  "name": "the-dots-frontend",
   "version": "0.0.1",
-  "description": "Demo application for The Dots, to demonstrate the potential workflow and structure of the main application",
+  "description": "Frontend of The Dots",
   "private": true,
   "main": "./src/index.js",
   "scripts": {
-    "start": "NODE_ENV=production NODE_PATH=$NODE_PATH:./src/shared node --harmony . & json-server --watch db/db.json --port 3001",
+    "start": "npm run build && npm run prod",
+    "prod": "NODE_ENV=production NODE_PATH=$NODE_PATH:./src/shared node --harmony . & json-server --watch db/db.json --port 3001",
     "dev": "NODE_PATH=$NODE_PATH:./src/shared node --harmony . & json-server --watch db/db.json --port 3001",
     "clean": "rimraf dist",
     "build:webpack": "NODE_ENV=production webpack --progress --colors --config webpack.config.production.js",

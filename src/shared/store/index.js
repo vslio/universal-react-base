@@ -2,7 +2,7 @@ import { compose, createStore, applyMiddleware } from 'redux'
 import promiseMiddleware from 'lib/promiseMiddleware'
 import reducers from 'reducers'
 
-function configureStore(initialState) {
+export default function configureStore(initialState) {
   const store = createStore(
     reducers,
     initialState,
@@ -25,5 +25,3 @@ function configureStore(initialState) {
 
   return store
 }
-
-export default configureStore

@@ -6,15 +6,9 @@ import { Link } from 'react-router'
 import Navigation from 'components/Navigation';
 import style from './header.css'
 
-class Header extends Component {
-  render() {
-    return (
-      <header className={style.header}>
-        <h1 className={style.heading}>_The Blog</h1>
-        <Navigation />
-      </header>
-    )
-  }
-}
-
-export default Header
+export default () => (
+  <header className={style.header}>
+    <h1 className={style.heading}>The Blog_</h1>
+    <Navigation />
+  </header>
+)

@@ -1,5 +1,5 @@
 /**
- * Root Component
+ * Root Component styles
  *
  * Contains all the base styles (normalize, typography, forms etc).
  */
@@ -11,9 +11,6 @@
 @import '../../styles/base/base.css';
 @import '../../styles/base/type.css';
 
-/**
- * Root Component styles
- */
 .root {
   padding: 50px;
 }

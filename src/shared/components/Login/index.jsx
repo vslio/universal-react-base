@@ -1,10 +1,10 @@
 /**
- * About component, rendered @ `/login`
+ * Login component
  */
 import React from 'react'
 import style from './login.css'
 
-const Login = () => (
+export default () => (
   <div>
     <header className={style.header}>
       <h3 className={style.heading}>Login</h3>
@@ -19,5 +19,3 @@ const Login = () => (
     </form>
   </div>
 )
-
-export default Login

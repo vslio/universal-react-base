@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 import style from './root.css'
 import Header from 'components/Header'
 
-const Root = (props) => (
+export default (props) => (
   <div className={style.root}>
     <Header />
     {/*
@@ -15,5 +15,3 @@ const Root = (props) => (
     {props.children}
   </div>
 )
-
-export default Root

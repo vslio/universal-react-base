@@ -1,5 +1,5 @@
 /**
- * Notes actions
+ * Posts action creators
  */
 import { apiPath, request } from 'actions'
 
@@ -9,6 +9,7 @@ import { apiPath, request } from 'actions'
 
 /**
  * Action triggered when there's a request for posts
+ *
  * @return {Object} Action type
  */
 export function getPosts() {
@@ -20,6 +21,7 @@ export function getPosts() {
 
 /**
  * Action triggered when there's a request for a single post
+ *
  * @return {Object} Action type
  */
 export function getPost(post) {

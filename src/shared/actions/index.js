@@ -7,5 +7,5 @@ export function apiPath(path) {
   return apiUrl + path
 }
 
-// Exposing `isomorphic-fetch` to all the actions
+// Exposing `axios` to all the actions
 export request from 'axios'

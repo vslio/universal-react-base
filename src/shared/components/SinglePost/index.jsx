@@ -10,6 +10,10 @@ import * as PostsActions from 'actions/PostsActions'
 import style from './singlePost.css'
 
 class SinglePost extends Component {
+  // Action dispatched on the server-side, when
+  // we're on this route. This essentially triggers
+  // a call to the API and waits for the response
+  // before it gets rendered.
   static needs = [
     PostsActions.getPost
   ]
@@ -40,10 +44,8 @@ class SinglePost extends Component {
  * `connect` allows the component to subscribe to Redux store
  * updates, effectively triggering re-renders when there are
  * changes. Additionally, it injects the `dispatch` method
- * used in `componentDidMount()`
+ * in `props`
  */
-SinglePost = connect(
+export default connect(
   state => ({ post: state.posts.post })
 )(SinglePost)
-
-export default SinglePost
