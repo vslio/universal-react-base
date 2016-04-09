@@ -1,5 +1,5 @@
 /**
- * Master bootstrap file for the client-side
+ * Bootstrap file for the client-side
  */
 import 'babel-polyfill'
 import React from 'react'
@@ -11,7 +11,7 @@ import reducers from 'reducers'
 import configureStore from 'store'
 
 // The initial state is generated on the server-side
-// and appended in a script tag
+// and appended in a script tag.
 const initialState = JSON.parse(window.__INITIAL_STATE__)
 const store = configureStore(initialState)
 

@@ -1,5 +1,5 @@
 /**
- * Generic constants and helper functions for the actions
+ * Constants and helper functions for the actions
  */
 const apiUrl = 'http://localhost:3001'
 

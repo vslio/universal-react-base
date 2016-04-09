@@ -12,7 +12,7 @@ class Posts extends Component {
   // Action dispatched on the server-side, when
   // we're on this route. This essentially triggers
   // a call to the API and waits for the response
-  // before it gets rendered.
+  // before it renders anything.
   static needs = [
     PostsActions.getPosts
   ]

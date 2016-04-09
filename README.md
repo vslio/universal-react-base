@@ -1,27 +1,26 @@
-# The Dots Demo
+# Universal React/Redux base
 
 ##What is it
-*This is a rough demo, demonstrating the use of our (hopefully final) tech stack.*
+This is a basic boilerplate to get you started with React/Redux. The main focus of this base is to demonstrate 2 things as simple as possible:
+- How to to do Universal rendering with React & Redux, using a minimum amount of baggage
+- How to get data from an API and *then* render the view
 
-**This includes:**
-- [x] Express
-- [x] json-server
+##The stack
+- [x] Express & json-server
 - [x] Webpack
 - [x] React
 - [x] Redux
-- [x] Babel
-- [x] PostCSS
-- [x] cssnext
+- [x] PostCSS, cssnext & CSS Modules
 
 ##Installation
 *Note: The current build hasn't been tested on Windows.*
 
-Clone this [repo](https://github.com/vslio/the-dots-demo):
+Clone this [repo](https://github.com/vslio/universal-react-redux-base):
 ```
-git clone git@github.com:vslio/the-dots-demo.git /desired-folder
+git clone git@github.com:vslio/universal-react-redux-base.git /project-folder
 ```
 
-Make sure you install JSON Server globally for the API server to work:
+Make sure you install `json-server` globally for the API server to work:
 *Note: You might need to prepend `sudo ` depending on the permissions of your user's `node_modules` folder.*
 ```
 npm install -g json-server
@@ -30,8 +29,8 @@ npm install -g json-server
 Fire up the console, navigate to the cloned repo and install all the project's dependencies:
 ```
 cd project-folder/
-npm install # Install the dependencies
-npm run build # Build the production files once
+npm install # Install the project's dependencies
+npm run build # Build the production files for the first time
 ```
 
 To start development:
@@ -44,7 +43,7 @@ To build the project for production:
 npm run build
 ```
 
-To run the production code locally:
+To run the production code (the production files are rebuilt automatically):
 ```
 npm start
 ```
@@ -54,11 +53,12 @@ The project is accessible on `http://localhost:3000` and the API server on `http
 
 ##Structure
     .
-    ├── db                      # Storing a mock DB file for the API
+    ├── db                      # DB file for the mock API (used by json-server)
     ├── dist                    # Final asset bundles (JS, images etc)
     └── src                     # The source ಠ_ಠ
-        ├── client              # Master bootstrap file for the client-side
-        ├── server              # Server files
+        ├── client              # Bootstrap file for the client-side
+        ├── server              # Server-side only files
+        │   ├── lib             # Server libraries
         │   └── views           # Server template files
         └── shared              # Universal files - anything react/redux related
             ├── actions         # Redux action types and action creators
@@ -66,9 +66,9 @@ The project is accessible on `http://localhost:3000` and the API server on `http
             ├── lib             # Redux middleware and other libraries
             ├── reducers        # Redux reducers
             ├── store           # Redux store configuration
-            └── styles          # Core stylesheets (not component-specific)
+            └── styles          # Top level and reusable styles (not component-specific)
                 ├── base        # Base styles (type, variables, really top level stuff)
-                └── modules     # Common styles that can be composed (@extend-ed) in components
+                └── modules     # Common styles that can be composed (or @extend-ed in SASS-land) in components
 
 
 ##Things you need to know
@@ -78,14 +78,12 @@ Some Components are defined as `Stateless Functions` instead of classes:
 import React from 'react'
 import style from './home.css'
 
-const Home = () => (
+export default () => (
   <header>
     <h3 className={style.heading}>Homepage</h3>
-    <span className={style.description}>Nothing to see here yet.</span>
+    <span className={style.description}>This is the homepage.</span>
   </header>
 )
-
-export default Home
 ```
 This is the recommended option when the component we're creating does not need to retain internal state and doesn't have any of the lifecycle methods. For more information check this [section of the React documentation](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions).
 Caveat: Hot reloading doesn't work with stateless functions. There is no support at this stage, [but it could happen](https://github.com/gaearon/babel-plugin-react-transform/issues/57).

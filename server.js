@@ -2,14 +2,12 @@ import path from 'path'
 import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
-import { createStore, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import { match, RouterContext } from 'react-router'
 import createLocation from 'history/lib/createLocation'
-import promiseMiddleware from 'lib/promiseMiddleware'
-import fetchComponentData from 'lib/fetchComponentData'
+import getComponentData from './src/server/lib/getComponentData'
 import routes from 'routes'
-import reducer from 'reducers'
+import configureStore from 'store'
 
 const server = express()
 const isDevelopment = (process.env.NODE_ENV !== 'production')
@@ -28,33 +26,34 @@ server.use((request, response) => {
     global.webpackIsomorphicTools.refresh()
   }
 
-  const assets = global.webpackIsomorphicTools.assets()
   const location = createLocation(request.url)
-  const store = applyMiddleware(promiseMiddleware)(createStore)(reducer)
 
-  match({ routes, location }, (err, redirectLocation, renderProps) => {
-    if (err) {
-      console.error(err)
+  match({ routes, location }, (error, redirectLocation, renderProps) => {
+    if (error) {
+      console.error(error)
 
       return response.status(500).end('Internal server error')
-    }
-
-    if (!renderProps) {
+    } else if (redirectLocation) {
+      response.redirect(302, redirectLocation.pathname + redirectLocation.search)
+    } else if (!renderProps) {
       return response.status(404).end('Not found')
     }
 
-    function renderView() {
-      const InitialView = (
-        <Provider store={store}>
-          <RouterContext {...renderProps} />
-        </Provider>
-      )
+    const store = configureStore()
 
+    function renderView() {
+      const assets = global.webpackIsomorphicTools.assets()
       const stylesheet = assets.styles.app
       const javascripts = {
         app: assets.javascript.app,
         vendors: assets.javascript.vendors
       }
+
+      const InitialView = (
+        <Provider store={store}>
+          <RouterContext {...renderProps} />
+        </Provider>
+      )
 
       const componentHTML = renderToString(InitialView)
       const initialState = JSON.stringify(store.getState())
@@ -64,17 +63,17 @@ server.use((request, response) => {
         initialState,
         stylesheet,
         javascripts
-      }, (err, html) => {
-        if (err) {
-          response.end(err.message)
+      }, (error, html) => {
+        if (error) {
+          response.end(error.message)
         } else {
           response.end(html)
         }
       })
     }
 
-    fetchComponentData(store.dispatch, renderProps.components, renderProps.params)
-      .then(res => renderView(res))
+    getComponentData(store.dispatch, renderProps.components, renderProps.params)
+      .then(response => renderView())
   })
 })
 
