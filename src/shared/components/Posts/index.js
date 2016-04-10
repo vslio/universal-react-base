@@ -2,6 +2,7 @@
  * Posts container
  */
 import React, { Component } from 'react'
+import Helmet from 'react-helmet'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import style from './posts.css'
@@ -26,6 +27,7 @@ class Posts extends Component {
 
     return (
       <div>
+        <Helmet title='Posts' />
         <header>
           <h3 className={style.heading}>Posts</h3>
           <span className={style.description}>Blog posts from our members.</span>

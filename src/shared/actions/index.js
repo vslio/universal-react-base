@@ -1,7 +1,7 @@
 /**
  * Constants and helper functions for the actions
  */
-const apiUrl = 'http://localhost:3001'
+const apiUrl ='http://localhost:3001'
 
 export function apiPath (path) {
   return apiUrl + path

@@ -7,8 +7,8 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 - It assumes you have at least a basic understanding of how [React](https://facebook.github.io/react/docs/tutorial.html), [Redux](https://egghead.io/series/getting-started-with-redux) and [Immutable data structures](http://facebook.github.io/immutable-js/) work
 
 ##What's left to do
-- Add authentication and protected components
-- Further improve the codebase (hopefully with contributions by the community)
+- Add user authentication (that's what the form is there for) and restrict access to specific routes/components
+- Further improve the codebase (feel free to make suggestions, PRs etc)
 
 ##The stack
 - [x] Express & json-server
@@ -16,6 +16,7 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 - [x] React
 - [x] Redux
 - [x] ImmutableJS
+- [x] React Helmet
 - [x] PostCSS, CSS Modules & cssnext
 
 ##Installation

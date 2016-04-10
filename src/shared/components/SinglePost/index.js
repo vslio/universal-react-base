@@ -4,6 +4,7 @@
  * @description Displays a single post
  */
 import React, { Component } from 'react'
+import Helmet from 'react-helmet'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
 import * as PostsActions from 'actions/PostsActions'
@@ -27,6 +28,7 @@ class SinglePost extends Component {
   render() {
     return (
       <div>
+        <Helmet title='Post' />
         <header className={style.header}>
           <h3 className={style.title}>{this.props.post.title}</h3>
           <em className={style.author}>by {this.props.post.author}</em>

@@ -17,6 +17,7 @@ module.exports = {
       'babel-polyfill',
       'react',
       'react-dom',
+      'react-helmet',
       'react-redux',
       'react-router',
       'redux'

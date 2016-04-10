@@ -2,10 +2,12 @@
  * Login component
  */
 import React from 'react'
+import Helmet from 'react-helmet'
 import style from './login.css'
 
 export default () => (
   <div>
+    <Helmet title='Login' />
     <header className={style.header}>
       <h3 className={style.heading}>Login</h3>
       <span className={style.description}>Please enter your details to login.</span>

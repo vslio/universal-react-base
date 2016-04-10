@@ -1,6 +1,7 @@
 import path from 'path'
 import express from 'express'
 import React from 'react'
+import Helmet from 'react-helmet'
 import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
 import { match, RouterContext } from 'react-router'
@@ -56,10 +57,12 @@ server.use((request, response) => {
       )
 
       const componentHTML = renderToString(InitialView)
+      const head = Helmet.rewind()
       const initialState = JSON.stringify(store.getState())
 
       response.render('index', {
         componentHTML,
+        head,
         initialState,
         stylesheet,
         javascripts
