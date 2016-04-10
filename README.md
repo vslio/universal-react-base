@@ -1,4 +1,4 @@
-# Universal React/Redux base
+# Universal React (& Redux) base
 
 ##What is it
 This is a basic boilerplate to help you get started with React & Redux. What you need to know about it:
@@ -21,9 +21,9 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 ##Installation
 *Note: The current build hasn't been tested on Windows.*
 
-Clone this [repository](https://github.com/vslio/universal-react-redux-base):
+Clone this [repository](https://github.com/vslio/universal-react-base):
 ```
-git clone git@github.com:vslio/universal-react-redux-base.git /project-folder
+git clone git@github.com:vslio/universal-react-base.git /project-folder
 ```
 
 Make sure you install `json-server` globally for the API server to work:
