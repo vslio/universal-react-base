@@ -15,7 +15,7 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 - [x] Webpack
 - [x] React
 - [x] Redux
-- [x] ImmutableJS
+- [ ] ImmutableJS (WIP)
 - [x] React Helmet
 - [x] PostCSS, CSS Modules & cssnext
 
