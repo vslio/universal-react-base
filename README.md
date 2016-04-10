@@ -4,7 +4,7 @@
 This is a basic boilerplate to help you get started with React & Redux. What you need to know about it:
 - The main focus of this base is to demonstrate how to start a Universal React & Redux app in a simple and concise way, using just a minimum amount of baggage
 - It will show you how to fetch a component's data from an API server and ultimately construct and send the final HTML to the client, *after* all the required data is fetched
-- It assumes you have at least a basic understanding of how [React](https://facebook.github.io/react/docs/tutorial.html), [Redux](https://egghead.io/series/getting-started-with-redux) and [Immutable data structures](http://facebook.github.io/immutable-js/) work
+- It assumes you have at least a basic understanding of how [React](https://facebook.github.io/react/docs/tutorial.html), [Redux](https://egghead.io/series/getting-started-with-redux) ~~and [Immutable data structures](http://facebook.github.io/immutable-js/)~~ work
 
 ##What's left to do
 - Add user authentication (that's what the form is there for) and restrict access to specific routes/components
@@ -24,7 +24,7 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 
 Clone this [repository](https://github.com/vslio/universal-react-base):
 ```
-git clone git@github.com:vslio/universal-react-base.git /project-folder
+git clone git@github.com:vslio/universal-react-base.git project-folder/
 ```
 
 Make sure you install `json-server` globally for the API server to work:
