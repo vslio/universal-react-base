@@ -1,7 +1,7 @@
 /**
  * Root component
  */
-import React, { Component } from 'react'
+import React from 'react'
 import style from './root.css'
 import Header from 'components/Header'
 

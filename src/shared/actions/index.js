@@ -3,7 +3,7 @@
  */
 const apiUrl = 'http://localhost:3001'
 
-export function apiPath(path) {
+export function apiPath (path) {
   return apiUrl + path
 }
 

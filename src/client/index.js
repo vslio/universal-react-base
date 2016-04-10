@@ -7,7 +7,6 @@ import ReactDOM from 'react-dom'
 import { Router, browserHistory } from 'react-router'
 import { Provider } from 'react-redux'
 import routes from 'routes'
-import reducers from 'reducers'
 import configureStore from 'store'
 
 // The initial state is generated on the server-side

@@ -6,7 +6,7 @@ const initialState = {
 /**
  * Posts Reducers
  */
-export default function postsReducer(state = initialState, action) {
+export default function postsReducer (state = initialState, action) {
   switch (action.type) {
     case 'GET_POSTS':
       return {

@@ -13,11 +13,11 @@ var projectRoot = path.join(__dirname, '/src/shared')
 
 global.webpackIsomorphicTools = new WebpackIsomorphicTools(webpackIsomorphicToolsConfig)
   .development(isDevelopment)
-  .server(projectRoot, function() {
+  .server(projectRoot, function () {
     var server = require('./server').default
     var PORT = process.env.PORT || 3000
 
-    server.listen(PORT, function() {
+    server.listen(PORT, function () {
       console.log('\n[ Server listening on: ' + PORT + ' ]')
     })
   })

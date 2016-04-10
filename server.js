@@ -41,7 +41,7 @@ server.use((request, response) => {
 
     const store = configureStore()
 
-    function renderView() {
+    function renderView () {
       const assets = global.webpackIsomorphicTools.assets()
       const stylesheet = assets.styles.app
       const javascripts = {
@@ -73,7 +73,7 @@ server.use((request, response) => {
     }
 
     getComponentData(store.dispatch, renderProps.components, renderProps.params)
-      .then(response => renderView())
+      .then((response) => renderView())
   })
 })
 

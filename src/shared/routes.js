@@ -8,10 +8,10 @@ import SinglePost from './components/SinglePost'
 import Login from './components/Login'
 
 export default (
-  <Route path="/" component={Root}>
+  <Route path='/' component={Root}>
     <IndexRoute component={Home} />
-    <Route path="/posts" component={Posts}></Route>
-    <Route path="/post/:id" component={SinglePost}></Route>
-    <Route path="/login" component={Login}></Route>
+    <Route path='/posts' component={Posts} />
+    <Route path='/post/:id' component={SinglePost} />
+    <Route path='/login' component={Login} />
   </Route>
 )

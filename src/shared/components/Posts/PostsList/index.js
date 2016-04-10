@@ -3,7 +3,7 @@
  *
  * @description Renders a list of `Post`s
  */
-import React, { Component } from 'react'
+import React from 'react'
 import Post from '../Post'
 
 export default (props) => (

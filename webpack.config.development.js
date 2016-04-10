@@ -61,7 +61,7 @@ module.exports = {
     modulesDirectories: ['node_modules', 'shared'],
     extensions: ['', '.js', '.jsx']
   },
-  postcss: function(webpack) {
+  postcss: function (webpack) {
     return [
       postcssImport({
         path: ['./'],

@@ -12,7 +12,7 @@ import { apiPath, request } from 'actions'
  *
  * @return {Object} Action type
  */
-export function getPosts() {
+export function getPosts () {
   return {
     type: 'GET_POSTS',
     promise: request.get(apiPath('/posts'))
@@ -24,7 +24,7 @@ export function getPosts() {
  *
  * @return {Object} Action type
  */
-export function getPost(post) {
+export function getPost (post) {
   return {
     type: 'GET_POST',
     promise: request.get(apiPath(`/posts/${post.id}`))

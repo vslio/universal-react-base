@@ -1,9 +1,8 @@
 /**
  * Header component
  */
-import React, { Component } from 'react'
-import { Link } from 'react-router'
-import Navigation from 'components/Navigation';
+import React from 'react'
+import Navigation from 'components/Navigation'
 import style from './header.css'
 
 export default () => (
