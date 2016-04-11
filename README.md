@@ -8,6 +8,7 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 
 ##What's left to do
 - Add user authentication (that's what the form is there for) and restrict access to specific routes/components
+- Add [ImmutableJS](https://github.com/facebook/immutable-js/)
 - Further improve the codebase (feel free to make suggestions, PRs etc)
 
 ##The stack
@@ -15,9 +16,9 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 - [x] Webpack
 - [x] React
 - [x] Redux
-- [ ] ImmutableJS (WIP)
 - [x] React Helmet
 - [x] PostCSS, CSS Modules & cssnext
+- [ ] ImmutableJS
 
 ##Installation
 *Note: The current build hasn't been tested on Windows.*
