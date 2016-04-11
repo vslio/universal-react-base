@@ -1,7 +1,7 @@
 {
-  "name": "the-dots-frontend",
+  "name": "universal-react-base",
   "version": "0.0.1",
-  "description": "Frontend of The Dots",
+  "description": "Super basic example to get you started with Universal React/Redux (+ API requests). Lightweight and straightforward.",
   "private": true,
   "main": "./src/index.js",
   "scripts": {
@@ -17,7 +17,11 @@
     "email": "hello@vsl.io",
     "url": "http://vsl.io"
   },
-  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vslio/universal-react-base.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
     "babel-polyfill": "^6.7.4",
