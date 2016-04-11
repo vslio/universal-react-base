@@ -7,10 +7,10 @@ This is a basic boilerplate to help you get started with React & Redux. What you
 - It assumes you have at least a basic understanding of how [React](https://facebook.github.io/react/docs/tutorial.html), [Redux](https://egghead.io/series/getting-started-with-redux) ~~and [Immutable data structures](http://facebook.github.io/immutable-js/)~~ work
 
 ##What's left to do
-- Add user authentication (that's what the form is there for) and restrict access to specific routes/components
-- Add [ImmutableJS](https://github.com/facebook/immutable-js/)
-- Don't dispatch the action in componentDidMount if the data has already been fetched from server-side rendering
-- Further improve the codebase (feel free to make suggestions, PRs etc)
+- [ ] Add user authentication (that's what the form is there for) and restrict access to specific routes/components
+- [ ] Add [ImmutableJS](https://github.com/facebook/immutable-js/)
+- [ ] Don't dispatch the action in componentDidMount if the data has already been fetched from server-side rendering
+- [ ] Further improve the codebase (feel free to make suggestions, PRs etc)
 
 ##The stack
 - [x] Express & json-server
