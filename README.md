@@ -32,7 +32,7 @@ git clone git@github.com:vslio/universal-react-base.git project-folder/
 Make sure you install `json-server` globally for the API server to work:
 *Note: You might need to prepend `sudo ` depending on the permissions of your user's `node_modules` folder.*
 ```
-npm install -g json-server@0.8.9 standard
+npm install -g json-server@0.8.9
 ```
 
 If you'd like to use a style guide, I would suggest [StandardJS](https://github.com/feross/standard). You will need to install it globally:
