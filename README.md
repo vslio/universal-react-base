@@ -86,10 +86,6 @@ The project is accessible on `http://localhost:3000` and the API server on `http
                 └── modules     # Common styles that can be composed (or @extend-ed in SASS-land) in components
 
 
-## Useful things to know
-### Style Guide
-I have opted for [StandardJS](https://github.com/feross/standard), because it's more in line with how I've been coding all along. Feel free to use whatever style guide you prefer ([Airbnb](https://github.com/airbnb/javascript) is one of the most popular ones).
-
 ### Components
 Some Components are defined as `Stateless Functions` instead of classes:
 ```js
